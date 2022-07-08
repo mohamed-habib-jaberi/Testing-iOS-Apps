@@ -31,10 +31,24 @@ class BankApp_UnitTest_EX1Tests: XCTestCase {
         XCTAssertEqual(100, self.account.balance)
     }
 
+    func test_WithdrawFunds() {
+
+        self.account.deposit(100)
+        self.account.withdraw(50)
+
+        XCTAssertEqual(50, self.account.balance)
+    }
+
+    func test_WithdrawFromInsufficientBalance() {
+        self.account.deposit(100)
+
+        XCTAssertThrowsError(try self.account.withdraw(300)) { error in
+            XCTAssertEqual(error as! AccountError, AccountError.insufficientFunds)
+        }
+    }
+
     override class func tearDown() {
         super.tearDown()
-
         // this function is called after each test
-        
     }
 }
