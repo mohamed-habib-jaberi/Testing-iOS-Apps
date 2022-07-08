@@ -14,6 +14,7 @@
 		8882A72528787BDD002E3419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8882A72428787BDD002E3419 /* Assets.xcassets */; };
 		8882A72828787BDD002E3419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8882A72628787BDD002E3419 /* LaunchScreen.storyboard */; };
 		8882A73628787C24002E3419 /* BankApp_UnitTest_EX1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A73528787C24002E3419 /* BankApp_UnitTest_EX1Tests.swift */; };
+		8882A73E28787E11002E3419 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A73D28787E11002E3419 /* Account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		8882A72928787BDD002E3419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8882A73328787C24002E3419 /* BankApp-UnitTest-EX1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BankApp-UnitTest-EX1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8882A73528787C24002E3419 /* BankApp_UnitTest_EX1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankApp_UnitTest_EX1Tests.swift; sourceTree = "<group>"; };
+		8882A73D28787E11002E3419 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		8882A71A28787BDB002E3419 /* BankApp-UnitTest-EX1 */ = {
 			isa = PBXGroup;
 			children = (
+				8882A73C28787DFA002E3419 /* Models */,
 				8882A71B28787BDB002E3419 /* AppDelegate.swift */,
 				8882A71D28787BDB002E3419 /* SceneDelegate.swift */,
 				8882A71F28787BDB002E3419 /* ViewController.swift */,
@@ -95,6 +98,14 @@
 				8882A73528787C24002E3419 /* BankApp_UnitTest_EX1Tests.swift */,
 			);
 			path = "BankApp-UnitTest-EX1Tests";
+			sourceTree = "<group>";
+		};
+		8882A73C28787DFA002E3419 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8882A73D28787E11002E3419 /* Account.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8882A72028787BDB002E3419 /* ViewController.swift in Sources */,
+				8882A73E28787E11002E3419 /* Account.swift in Sources */,
 				8882A71C28787BDB002E3419 /* AppDelegate.swift in Sources */,
 				8882A71E28787BDB002E3419 /* SceneDelegate.swift in Sources */,
 			);
