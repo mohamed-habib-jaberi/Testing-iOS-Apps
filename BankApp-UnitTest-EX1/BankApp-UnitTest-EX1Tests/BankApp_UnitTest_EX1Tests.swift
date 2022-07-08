@@ -10,9 +10,31 @@ import XCTest
 
 class BankApp_UnitTest_EX1Tests: XCTestCase {
 
+    private var account: Account!
+
+    override func setUp() {
+        super.setUp()
+        // the code inside setUp function will be executed before each test
+
+        self.account = Account()
+
+    }
+
     func test_InitialBalanceZero() {
 
-        let account = Account()
-        XCTAssertTrue(account.balance == 0, "Balance is not zero!")
+        XCTAssertTrue(self.account.balance == 0, "Balance is not zero!")
+    }
+
+    func test_DepositFunds() {
+
+        self.account.deposit(100)
+        XCTAssertEqual(100, self.account.balance)
+    }
+
+    override class func tearDown() {
+        super.tearDown()
+
+        // this function is called after each test
+        
     }
 }
