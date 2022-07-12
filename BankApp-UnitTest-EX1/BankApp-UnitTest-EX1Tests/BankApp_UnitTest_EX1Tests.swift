@@ -34,7 +34,7 @@ class BankApp_UnitTest_EX1Tests: XCTestCase {
     func test_WithdrawFunds() {
 
         self.account.deposit(100)
-        self.account.withdraw(50)
+        try? self.account.withdraw(50)
 
         XCTAssertEqual(50, self.account.balance)
     }
