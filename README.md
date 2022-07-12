@@ -2,6 +2,8 @@
 
 #push new file :
 
+git pull
+
 git add .
 
 git commit -m "Write a unit test to withdraw amount from a bank account
