@@ -16,6 +16,8 @@
 		8882A7B9287EE970002E3419 /* TestingMultipleExpectationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A7B8287EE970002E3419 /* TestingMultipleExpectationsTests.swift */; };
 		8882A7C3287EE970002E3419 /* TestingMultipleExpectationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A7C2287EE970002E3419 /* TestingMultipleExpectationsUITests.swift */; };
 		8882A7C5287EE970002E3419 /* TestingMultipleExpectationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A7C4287EE970002E3419 /* TestingMultipleExpectationsUITestsLaunchTests.swift */; };
+		8882A7D3287EEA3F002E3419 /*  Notificatio+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A7D2287EEA3F002E3419 /*  Notificatio+Extensions.swift */; };
+		8882A7D5287EEA5D002E3419 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A7D4287EEA5D002E3419 /* AlertManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8882A7BE287EE970002E3419 /* TestingMultipleExpectationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingMultipleExpectationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8882A7C2287EE970002E3419 /* TestingMultipleExpectationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingMultipleExpectationsUITests.swift; sourceTree = "<group>"; };
 		8882A7C4287EE970002E3419 /* TestingMultipleExpectationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingMultipleExpectationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8882A7D2287EEA3F002E3419 /*  Notificatio+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Notificatio+Extensions.swift"; sourceTree = "<group>"; };
+		8882A7D4287EEA5D002E3419 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		8882A7A0287EE96F002E3419 /* TestingMultipleExpectations */ = {
 			isa = PBXGroup;
 			children = (
+				8882A7D1287EEA25002E3419 /* Extensions */,
 				8882A7A1287EE96F002E3419 /* AppDelegate.swift */,
 				8882A7A3287EE96F002E3419 /* SceneDelegate.swift */,
 				8882A7A5287EE96F002E3419 /* ViewController.swift */,
@@ -106,6 +111,7 @@
 				8882A7AA287EE970002E3419 /* Assets.xcassets */,
 				8882A7AC287EE970002E3419 /* LaunchScreen.storyboard */,
 				8882A7AF287EE970002E3419 /* Info.plist */,
+				8882A7D4287EEA5D002E3419 /* AlertManager.swift */,
 			);
 			path = TestingMultipleExpectations;
 			sourceTree = "<group>";
@@ -125,6 +131,14 @@
 				8882A7C4287EE970002E3419 /* TestingMultipleExpectationsUITestsLaunchTests.swift */,
 			);
 			path = TestingMultipleExpectationsUITests;
+			sourceTree = "<group>";
+		};
+		8882A7D1287EEA25002E3419 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8882A7D2287EEA3F002E3419 /*  Notificatio+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8882A7D3287EEA3F002E3419 /*  Notificatio+Extensions.swift in Sources */,
 				8882A7A6287EE96F002E3419 /* ViewController.swift in Sources */,
+				8882A7D5287EEA5D002E3419 /* AlertManager.swift in Sources */,
 				8882A7A2287EE96F002E3419 /* AppDelegate.swift in Sources */,
 				8882A7A4287EE96F002E3419 /* SceneDelegate.swift in Sources */,
 			);
