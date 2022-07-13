@@ -19,8 +19,10 @@ extension CMPedometer: Pedometer {
         return CMPedometer.authorizationStatus() == .denied
     }
 
-    func start() {
-
+    func start(completion: @escaping (Error?) -> Void) {
+        self.startEventUpdates { (event, error) in
+            completion(error)
+        }
     }
 
 }

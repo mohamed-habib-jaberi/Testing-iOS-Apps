@@ -45,19 +45,6 @@ class PedometerAppTests: XCTestCase {
 
     }
 
-    func test_PedometerNotAvailable_DoesNotStart() {
-
-        let mockPedometer = MockPedometer()
-        mockPedometer.pedometerAvailable = false
-
-        let pedometerVM = PedometerViewModel(pedometer: mockPedometer)
-
-        pedometerVM.startPedometer()
-
-        XCTAssertEqual(pedometerVM.appState, .notStarted)
-
-    }
-
     func test_PedometerAuthorized_ShouldBeInProgress() {
 
         let mockPedometer = MockPedometer()
@@ -81,6 +68,38 @@ class PedometerAppTests: XCTestCase {
         pedometerVM.startPedometer()
 
         XCTAssertEqual(pedometerVM.appState, .notStarted)
+
+    }
+    
+    func test_PedometerNotAvailable_DoesNotStart() {
+
+        let mockPedometer = MockPedometer()
+        mockPedometer.pedometerAvailable = false
+
+        let pedometerVM = PedometerViewModel(pedometer: mockPedometer)
+
+        pedometerVM.startPedometer()
+
+        XCTAssertEqual(pedometerVM.appState, .notStarted)
+
+    }
+
+    func test_WhenAuthDeniedAfterStartGenerateError() {
+
+        let mockPedometer = MockPedometer()
+        mockPedometer.error = MockPedometer.notAuthorizedError
+
+        let pedometerVM = PedometerViewModel(pedometer: mockPedometer)
+
+        let exp = expectation(for: NSPredicate(block: { (thing, _) -> Bool in
+            let vm = thing as! PedometerViewModel
+            return vm.appState == .notAuthorized
+
+        }), evaluatedWith: pedometerVM, handler: nil)
+
+        pedometerVM.startPedometer()
+
+        wait(for: [exp], timeout: 2.0)
 
     }
 }
