@@ -10,6 +10,7 @@ import Foundation
 
 class MockPedometer: Pedometer {
 
+    var pedometerAvailable: Bool = true
     private (set) var started: Bool = false
 
     func start() {

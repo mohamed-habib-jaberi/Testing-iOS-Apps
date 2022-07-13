@@ -45,5 +45,17 @@ class PedometerAppTests: XCTestCase {
 
     }
 
+    func test_PedometerNotAvailable_DoesNotStart() {
+
+        let mockPedometer = MockPedometer()
+        mockPedometer.pedometerAvailable = false
+
+        let pedometerVM = PedometerViewModel(pedometer: mockPedometer)
+
+        pedometerVM.startPedometer()
+
+        XCTAssertEqual(pedometerVM.appState, .notStarted)
+
+    }
 }
 

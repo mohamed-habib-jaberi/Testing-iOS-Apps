@@ -10,6 +10,11 @@ import CoreMotion
 
 extension CMPedometer: Pedometer {
 
+    var pedometerAvailable: Bool {
+        return CMPedometer.isStepCountingAvailable() && CMPedometer.isDistanceAvailable()
+        && CMPedometer.authorizationStatus() != .restricted
+    }
+
     func start() {
 
     }
