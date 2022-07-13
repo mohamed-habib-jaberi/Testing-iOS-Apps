@@ -70,7 +70,7 @@ class PedometerAppTests: XCTestCase {
         XCTAssertEqual(pedometerVM.appState, .notStarted)
 
     }
-    
+
     func test_PedometerNotAvailable_DoesNotStart() {
 
         let mockPedometer = MockPedometer()
@@ -100,6 +100,21 @@ class PedometerAppTests: XCTestCase {
         pedometerVM.startPedometer()
 
         wait(for: [exp], timeout: 2.0)
+
+    }
+
+    func test_WhenPedometerUpdatesThenUpdatesViewModel() {
+
+        let data = MockData(steps: 100, distanceTravelled: 10)
+
+        let mockPedometer = MockPedometer()
+        let pedometerVM = PedometerViewModel(pedometer: mockPedometer)
+
+        pedometerVM.startPedometer()
+        mockPedometer.sendData(data)
+
+        XCTAssertEqual(100, pedometerVM.steps)
+        XCTAssertEqual(10, pedometerVM.distanceTravelled)
 
     }
 }

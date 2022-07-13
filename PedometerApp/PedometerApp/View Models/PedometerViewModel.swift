@@ -16,12 +16,16 @@ enum AppState {
 
 class PedometerViewModel {
 
+    var steps: Int = 0
+    var distanceTravelled: Double = 0.0
+
     var pedometer: Pedometer
     var appState: AppState = .notStarted
 
     init(pedometer: Pedometer) {
         self.pedometer = pedometer
     }
+
 
     func startPedometer() {
 
@@ -36,6 +40,23 @@ class PedometerViewModel {
         }
 
         self.appState = .inProgress
+
+        self.pedometer.start(dataUpdates: { (data, error) in
+            //
+            if let data = data {
+                self.steps = data.steps
+                self.distanceTravelled = data.distanceTravelled
+            }
+        }, eventUpdates: { error in
+            if let error = error {
+                let nsError = error as NSError
+                if nsError.domain == CMErrorDomain && nsError.code == CMErrorMotionActivityNotAuthorized.rawValue {
+                    self.appState = .notAuthorized
+                }
+            }
+        })
+
+        /*
         self.pedometer.start { (error) in
             if let error = error {
                 let nsError = error as NSError
@@ -43,7 +64,9 @@ class PedometerViewModel {
                     self.appState = .notAuthorized
                 }
             }
-        }
+        } */
+
+
     }
 
 }
