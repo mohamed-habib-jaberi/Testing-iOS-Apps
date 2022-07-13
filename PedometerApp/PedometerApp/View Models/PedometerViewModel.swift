@@ -28,6 +28,12 @@ class PedometerViewModel {
             return
         }
 
+        guard !self.pedometer.permissionDeclined else {
+            self.appState = .notStarted
+            return
+        }
+
+        self.appState = .inProgress
         self.pedometer.start()
     }
 

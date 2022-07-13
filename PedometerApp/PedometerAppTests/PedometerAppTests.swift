@@ -57,5 +57,31 @@ class PedometerAppTests: XCTestCase {
         XCTAssertEqual(pedometerVM.appState, .notStarted)
 
     }
+
+    func test_PedometerAuthorized_ShouldBeInProgress() {
+
+        let mockPedometer = MockPedometer()
+        mockPedometer.permissionDeclined = false
+
+        let pedometerVM = PedometerViewModel(pedometer: mockPedometer)
+
+        pedometerVM.startPedometer()
+
+        XCTAssertEqual(pedometerVM.appState, .inProgress)
+
+    }
+
+    func test_PedometerNotAuthorized_DoesNotStart() {
+
+        let mockPedometer = MockPedometer()
+        mockPedometer.permissionDeclined = true
+
+        let pedometerVM = PedometerViewModel(pedometer: mockPedometer)
+
+        pedometerVM.startPedometer()
+
+        XCTAssertEqual(pedometerVM.appState, .notStarted)
+
+    }
 }
 

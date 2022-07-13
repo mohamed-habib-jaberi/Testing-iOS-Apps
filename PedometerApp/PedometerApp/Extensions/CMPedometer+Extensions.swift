@@ -15,6 +15,10 @@ extension CMPedometer: Pedometer {
         && CMPedometer.authorizationStatus() != .restricted
     }
 
+    var permissionDeclined: Bool {
+        return CMPedometer.authorizationStatus() == .denied
+    }
+
     func start() {
 
     }
