@@ -24,5 +24,15 @@ extension CMPedometer: Pedometer {
             completion(error)
         }
     }
+}
 
+extension CMPedometerData: PedometerData {
+
+    var steps: Int {
+        return self.numberOfSteps.intValue
+    }
+
+    var distanceTravelled: Double {
+        return self.distance?.doubleValue ?? 0
+    }
 }

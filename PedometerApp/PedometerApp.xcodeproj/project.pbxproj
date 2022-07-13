@@ -18,6 +18,7 @@
 		8882A812287EF49D002E3419 /* Pedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A811287EF49D002E3419 /* Pedometer.swift */; };
 		8882A814287EF4B7002E3419 /* PedometerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A813287EF4B7002E3419 /* PedometerViewModel.swift */; };
 		8882A817287EF4EE002E3419 /* MockPedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A816287EF4EE002E3419 /* MockPedometer.swift */; };
+		8882A819287EFBD4002E3419 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A818287EFBD4002E3419 /* MockData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		8882A811287EF49D002E3419 /* Pedometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedometer.swift; sourceTree = "<group>"; };
 		8882A813287EF4B7002E3419 /* PedometerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerViewModel.swift; sourceTree = "<group>"; };
 		8882A816287EF4EE002E3419 /* MockPedometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPedometer.swift; sourceTree = "<group>"; };
+		8882A818287EFBD4002E3419 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				8882A816287EF4EE002E3419 /* MockPedometer.swift */,
+				8882A818287EFBD4002E3419 /* MockData.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8882A7F4287EF2BB002E3419 /* PedometerAppTests.swift in Sources */,
+				8882A819287EFBD4002E3419 /* MockData.swift in Sources */,
 				8882A817287EF4EE002E3419 /* MockPedometer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

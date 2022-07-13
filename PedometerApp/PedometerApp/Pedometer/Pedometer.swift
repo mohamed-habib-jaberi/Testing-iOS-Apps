@@ -13,3 +13,7 @@ protocol Pedometer {
     func start(completion: @escaping (Error?) -> Void)
 }
 
+protocol PedometerData {
+    var steps: Int { get }
+    var distanceTravelled: Double { get }
+}
