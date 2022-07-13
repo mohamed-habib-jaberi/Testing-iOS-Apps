@@ -7,29 +7,43 @@
 
 import XCTest
 import CoreMotion
+@testable import PedometerApp
 
 class PedometerAppTests: XCTestCase {
 
-    func test_CMPedometer_LoadingHistorialData() {
+    //    func test_CMPedometer_LoadingHistorialData() {
+    //
+    //        let now = Date()
+    //        var data: CMPedometerData?
+    //        let then = now.addingTimeInterval(-1000)
+    //        let exp = expectation(description: "Pedometer query returns...")
+    //
+    //        let pedometer = CMPedometer()
+    //        pedometer.queryPedometerData(from: now, to: then) { (pedometerData, error) in
+    //
+    //            data = pedometerData
+    //            exp.fulfill()
+    //        }
+    //
+    //        wait(for: [exp], timeout: 1.0)
+    //        XCTAssertNotNil(data)
+    //        if let steps = data?.numberOfSteps {
+    //            XCTAssertTrue(steps.intValue > 0)
+    //        }
+    //
+    //    }
 
-        let now = Date()
-        var data: CMPedometerData?
-        let then = now.addingTimeInterval(-1000)
-        let exp = expectation(description: "Pedometer query returns...")
 
-        let pedometer = CMPedometer()
-        pedometer.queryPedometerData(from: now, to: then) { (pedometerData, error) in
+    func test_StartsPedometer() {
 
-            data = pedometerData
-            exp.fulfill()
-        }
+        let mockPedometer = MockPedometer()
+        let pedometerVM = PedometerViewModel(pedometer: mockPedometer)
 
-        wait(for: [exp], timeout: 1.0)
-        XCTAssertNotNil(data)
-        if let steps = data?.numberOfSteps {
-            XCTAssertTrue(steps.intValue > 0)
-        }
+        pedometerVM.startPedometer()
+
+        XCTAssertTrue(mockPedometer.started)
 
     }
 
 }
+

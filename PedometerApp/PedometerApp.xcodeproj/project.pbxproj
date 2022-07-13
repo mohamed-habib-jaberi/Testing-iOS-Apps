@@ -14,6 +14,10 @@
 		8882A7F4287EF2BB002E3419 /* PedometerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A7F3287EF2BB002E3419 /* PedometerAppTests.swift */; };
 		8882A7FE287EF2BB002E3419 /* PedometerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A7FD287EF2BB002E3419 /* PedometerAppUITests.swift */; };
 		8882A800287EF2BB002E3419 /* PedometerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A7FF287EF2BB002E3419 /* PedometerAppUITestsLaunchTests.swift */; };
+		8882A810287EF480002E3419 /* CMPedometer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A80F287EF480002E3419 /* CMPedometer+Extensions.swift */; };
+		8882A812287EF49D002E3419 /* Pedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A811287EF49D002E3419 /* Pedometer.swift */; };
+		8882A814287EF4B7002E3419 /* PedometerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A813287EF4B7002E3419 /* PedometerViewModel.swift */; };
+		8882A817287EF4EE002E3419 /* MockPedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882A816287EF4EE002E3419 /* MockPedometer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		8882A7F9287EF2BB002E3419 /* PedometerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedometerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8882A7FD287EF2BB002E3419 /* PedometerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerAppUITests.swift; sourceTree = "<group>"; };
 		8882A7FF287EF2BB002E3419 /* PedometerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8882A80F287EF480002E3419 /* CMPedometer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMPedometer+Extensions.swift"; sourceTree = "<group>"; };
+		8882A811287EF49D002E3419 /* Pedometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedometer.swift; sourceTree = "<group>"; };
+		8882A813287EF4B7002E3419 /* PedometerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerViewModel.swift; sourceTree = "<group>"; };
+		8882A816287EF4EE002E3419 /* MockPedometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPedometer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,9 @@
 		8882A7E1287EF2B9002E3419 /* PedometerApp */ = {
 			isa = PBXGroup;
 			children = (
+				8882A80C287EF42F002E3419 /* Extensions */,
+				8882A80D287EF442002E3419 /* Pedometer */,
+				8882A80E287EF454002E3419 /* View Models */,
 				8882A7E2287EF2B9002E3419 /* PedometerAppApp.swift */,
 				8882A7E4287EF2B9002E3419 /* ContentView.swift */,
 				8882A7E6287EF2BA002E3419 /* Assets.xcassets */,
@@ -113,6 +124,7 @@
 		8882A7F2287EF2BB002E3419 /* PedometerAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				8882A815287EF4DA002E3419 /* Mocks */,
 				8882A7F3287EF2BB002E3419 /* PedometerAppTests.swift */,
 			);
 			path = PedometerAppTests;
@@ -125,6 +137,38 @@
 				8882A7FF287EF2BB002E3419 /* PedometerAppUITestsLaunchTests.swift */,
 			);
 			path = PedometerAppUITests;
+			sourceTree = "<group>";
+		};
+		8882A80C287EF42F002E3419 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8882A80F287EF480002E3419 /* CMPedometer+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8882A80D287EF442002E3419 /* Pedometer */ = {
+			isa = PBXGroup;
+			children = (
+				8882A811287EF49D002E3419 /* Pedometer.swift */,
+			);
+			path = Pedometer;
+			sourceTree = "<group>";
+		};
+		8882A80E287EF454002E3419 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				8882A813287EF4B7002E3419 /* PedometerViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		8882A815287EF4DA002E3419 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				8882A816287EF4EE002E3419 /* MockPedometer.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +301,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8882A814287EF4B7002E3419 /* PedometerViewModel.swift in Sources */,
 				8882A7E5287EF2B9002E3419 /* ContentView.swift in Sources */,
 				8882A7E3287EF2B9002E3419 /* PedometerAppApp.swift in Sources */,
+				8882A810287EF480002E3419 /* CMPedometer+Extensions.swift in Sources */,
+				8882A812287EF49D002E3419 /* Pedometer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8882A7F4287EF2BB002E3419 /* PedometerAppTests.swift in Sources */,
+				8882A817287EF4EE002E3419 /* MockPedometer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
