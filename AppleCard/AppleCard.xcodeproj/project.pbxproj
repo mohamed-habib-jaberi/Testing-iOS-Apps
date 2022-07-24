@@ -1,0 +1,915 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E909D995450810E8A14A6AA /* Pods_AppleCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70209FAC655E875010E4B26 /* Pods_AppleCard.framework */; };
+		5FE89A716C8942460D85FC2D /* Pods_AppleCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A19B47719FC8FD902FAF42 /* Pods_AppleCardTests.framework */; };
+		7CD6122C30830167DED98736 /* Pods_AppleCard_AppleCardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645F5F7F192CD1F8ED97FC60 /* Pods_AppleCard_AppleCardUITests.framework */; };
+		8DB7E3CF2457D08900516433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB7E3CE2457D08900516433 /* AppDelegate.swift */; };
+		8DB7E3D12457D08900516433 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB7E3D02457D08900516433 /* SceneDelegate.swift */; };
+		8DB7E3D32457D08900516433 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB7E3D22457D08900516433 /* ContentView.swift */; };
+		8DB7E3D52457D08B00516433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB7E3D42457D08B00516433 /* Assets.xcassets */; };
+		8DB7E3D82457D08B00516433 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB7E3D72457D08B00516433 /* Preview Assets.xcassets */; };
+		8DB7E3DB2457D08B00516433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB7E3D92457D08B00516433 /* LaunchScreen.storyboard */; };
+		8DF43E182457D19100E6F295 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 8DF43E172457D19100E6F295 /* Features */; };
+		8DF43E1A2457D1C900E6F295 /* CucumberishLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF43E192457D1C900E6F295 /* CucumberishLoader.m */; };
+		8DF43E1D2457D1F900E6F295 /* CucumberishInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF43E1C2457D1F900E6F295 /* CucumberishInitializer.swift */; };
+		9197960898DDD5E907588BE6 /* Pods_AppleCard_AppleCardAcceptanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F19FF60A6887810F1E4E3B /* Pods_AppleCard_AppleCardAcceptanceTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DB7E3EB2457D0DE00516433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB7E3C32457D08900516433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB7E3CA2457D08900516433;
+			remoteInfo = AppleCard;
+		};
+		8DB7E3F92457D0E900516433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB7E3C32457D08900516433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB7E3CA2457D08900516433;
+			remoteInfo = AppleCard;
+		};
+		8DB7E4072457D0F300516433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB7E3C32457D08900516433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB7E3CA2457D08900516433;
+			remoteInfo = AppleCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A41B8D991D2DB66B21D1A27 /* Pods-AppleCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleCardTests.debug.xcconfig"; path = "Target Support Files/Pods-AppleCardTests/Pods-AppleCardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		16A19B47719FC8FD902FAF42 /* Pods_AppleCardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleCardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F19FF60A6887810F1E4E3B /* Pods_AppleCard_AppleCardAcceptanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleCard_AppleCardAcceptanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46DE0C19E65A8FE49DB207B3 /* Pods-AppleCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleCardTests.release.xcconfig"; path = "Target Support Files/Pods-AppleCardTests/Pods-AppleCardTests.release.xcconfig"; sourceTree = "<group>"; };
+		645F5F7F192CD1F8ED97FC60 /* Pods_AppleCard_AppleCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleCard_AppleCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		719E8AB347831FF14FAA2846 /* Pods-AppleCard-AppleCardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleCard-AppleCardUITests.debug.xcconfig"; path = "Target Support Files/Pods-AppleCard-AppleCardUITests/Pods-AppleCard-AppleCardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DB7E3CB2457D08900516433 /* AppleCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB7E3CE2457D08900516433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DB7E3D02457D08900516433 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8DB7E3D22457D08900516433 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8DB7E3D42457D08B00516433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DB7E3D72457D08B00516433 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DB7E3DA2457D08B00516433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DB7E3DC2457D08B00516433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB7E3E62457D0DE00516433 /* AppleCardAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleCardAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB7E3EA2457D0DE00516433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB7E3F42457D0E900516433 /* AppleCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB7E3F82457D0E900516433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB7E4022457D0F300516433 /* AppleCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB7E4062457D0F300516433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF43E172457D19100E6F295 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
+		8DF43E192457D1C900E6F295 /* CucumberishLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CucumberishLoader.m; sourceTree = "<group>"; };
+		8DF43E1B2457D1F800E6F295 /* AppleCardAcceptanceTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleCardAcceptanceTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		8DF43E1C2457D1F900E6F295 /* CucumberishInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CucumberishInitializer.swift; sourceTree = "<group>"; };
+		95723288CFEB7E3FBFD6248F /* Pods-AppleCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleCard.release.xcconfig"; path = "Target Support Files/Pods-AppleCard/Pods-AppleCard.release.xcconfig"; sourceTree = "<group>"; };
+		A70209FAC655E875010E4B26 /* Pods_AppleCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DB726A9657F86C1DD02DB1 /* Pods-AppleCard-AppleCardAcceptanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleCard-AppleCardAcceptanceTests.debug.xcconfig"; path = "Target Support Files/Pods-AppleCard-AppleCardAcceptanceTests/Pods-AppleCard-AppleCardAcceptanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D99DA3727665D0ED47DB1332 /* Pods-AppleCard-AppleCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleCard-AppleCardUITests.release.xcconfig"; path = "Target Support Files/Pods-AppleCard-AppleCardUITests/Pods-AppleCard-AppleCardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E43C885E31DC4DA2EBBEA00D /* Pods-AppleCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleCard.debug.xcconfig"; path = "Target Support Files/Pods-AppleCard/Pods-AppleCard.debug.xcconfig"; sourceTree = "<group>"; };
+		EB0682C14ED43CE58ADF3113 /* Pods-AppleCard-AppleCardAcceptanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleCard-AppleCardAcceptanceTests.release.xcconfig"; path = "Target Support Files/Pods-AppleCard-AppleCardAcceptanceTests/Pods-AppleCard-AppleCardAcceptanceTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DB7E3C82457D08900516433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E909D995450810E8A14A6AA /* Pods_AppleCard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB7E3E32457D0DE00516433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9197960898DDD5E907588BE6 /* Pods_AppleCard_AppleCardAcceptanceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB7E3F12457D0E900516433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD6122C30830167DED98736 /* Pods_AppleCard_AppleCardUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB7E3FF2457D0F300516433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE89A716C8942460D85FC2D /* Pods_AppleCardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DB7E3C22457D08900516433 = {
+			isa = PBXGroup;
+			children = (
+				8DB7E3CD2457D08900516433 /* AppleCard */,
+				8DB7E3E72457D0DE00516433 /* AppleCardAcceptanceTests */,
+				8DB7E3F52457D0E900516433 /* AppleCardUITests */,
+				8DB7E4032457D0F300516433 /* AppleCardTests */,
+				8DB7E3CC2457D08900516433 /* Products */,
+				AD5EB9E250FBE8FF877A26D0 /* Pods */,
+				B0E23F9F3D8A89AD35029EF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8DB7E3CC2457D08900516433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DB7E3CB2457D08900516433 /* AppleCard.app */,
+				8DB7E3E62457D0DE00516433 /* AppleCardAcceptanceTests.xctest */,
+				8DB7E3F42457D0E900516433 /* AppleCardUITests.xctest */,
+				8DB7E4022457D0F300516433 /* AppleCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DB7E3CD2457D08900516433 /* AppleCard */ = {
+			isa = PBXGroup;
+			children = (
+				8DB7E3CE2457D08900516433 /* AppDelegate.swift */,
+				8DB7E3D02457D08900516433 /* SceneDelegate.swift */,
+				8DB7E3D22457D08900516433 /* ContentView.swift */,
+				8DB7E3D42457D08B00516433 /* Assets.xcassets */,
+				8DB7E3D92457D08B00516433 /* LaunchScreen.storyboard */,
+				8DB7E3DC2457D08B00516433 /* Info.plist */,
+				8DB7E3D62457D08B00516433 /* Preview Content */,
+			);
+			path = AppleCard;
+			sourceTree = "<group>";
+		};
+		8DB7E3D62457D08B00516433 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8DB7E3D72457D08B00516433 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DB7E3E72457D0DE00516433 /* AppleCardAcceptanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DF43E172457D19100E6F295 /* Features */,
+				8DB7E3EA2457D0DE00516433 /* Info.plist */,
+				8DF43E192457D1C900E6F295 /* CucumberishLoader.m */,
+				8DF43E1C2457D1F900E6F295 /* CucumberishInitializer.swift */,
+				8DF43E1B2457D1F800E6F295 /* AppleCardAcceptanceTests-Bridging-Header.h */,
+			);
+			path = AppleCardAcceptanceTests;
+			sourceTree = "<group>";
+		};
+		8DB7E3F52457D0E900516433 /* AppleCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DB7E3F82457D0E900516433 /* Info.plist */,
+			);
+			path = AppleCardUITests;
+			sourceTree = "<group>";
+		};
+		8DB7E4032457D0F300516433 /* AppleCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DB7E4062457D0F300516433 /* Info.plist */,
+			);
+			path = AppleCardTests;
+			sourceTree = "<group>";
+		};
+		AD5EB9E250FBE8FF877A26D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E43C885E31DC4DA2EBBEA00D /* Pods-AppleCard.debug.xcconfig */,
+				95723288CFEB7E3FBFD6248F /* Pods-AppleCard.release.xcconfig */,
+				B8DB726A9657F86C1DD02DB1 /* Pods-AppleCard-AppleCardAcceptanceTests.debug.xcconfig */,
+				EB0682C14ED43CE58ADF3113 /* Pods-AppleCard-AppleCardAcceptanceTests.release.xcconfig */,
+				719E8AB347831FF14FAA2846 /* Pods-AppleCard-AppleCardUITests.debug.xcconfig */,
+				D99DA3727665D0ED47DB1332 /* Pods-AppleCard-AppleCardUITests.release.xcconfig */,
+				0A41B8D991D2DB66B21D1A27 /* Pods-AppleCardTests.debug.xcconfig */,
+				46DE0C19E65A8FE49DB207B3 /* Pods-AppleCardTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B0E23F9F3D8A89AD35029EF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A70209FAC655E875010E4B26 /* Pods_AppleCard.framework */,
+				45F19FF60A6887810F1E4E3B /* Pods_AppleCard_AppleCardAcceptanceTests.framework */,
+				645F5F7F192CD1F8ED97FC60 /* Pods_AppleCard_AppleCardUITests.framework */,
+				16A19B47719FC8FD902FAF42 /* Pods_AppleCardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DB7E3CA2457D08900516433 /* AppleCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB7E3DF2457D08B00516433 /* Build configuration list for PBXNativeTarget "AppleCard" */;
+			buildPhases = (
+				2BAF9917429AF3295CB9CB98 /* [CP] Check Pods Manifest.lock */,
+				8DB7E3C72457D08900516433 /* Sources */,
+				8DB7E3C82457D08900516433 /* Frameworks */,
+				8DB7E3C92457D08900516433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleCard;
+			productName = AppleCard;
+			productReference = 8DB7E3CB2457D08900516433 /* AppleCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DB7E3E52457D0DE00516433 /* AppleCardAcceptanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB7E3ED2457D0DE00516433 /* Build configuration list for PBXNativeTarget "AppleCardAcceptanceTests" */;
+			buildPhases = (
+				9C9C822CB5BB9C78073E419B /* [CP] Check Pods Manifest.lock */,
+				8DB7E3E22457D0DE00516433 /* Sources */,
+				8DB7E3E32457D0DE00516433 /* Frameworks */,
+				8DB7E3E42457D0DE00516433 /* Resources */,
+				0ADC7156419764375CF65BC9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DB7E3EC2457D0DE00516433 /* PBXTargetDependency */,
+			);
+			name = AppleCardAcceptanceTests;
+			productName = AppleCardAcceptanceTests;
+			productReference = 8DB7E3E62457D0DE00516433 /* AppleCardAcceptanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8DB7E3F32457D0E900516433 /* AppleCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB7E3FB2457D0E900516433 /* Build configuration list for PBXNativeTarget "AppleCardUITests" */;
+			buildPhases = (
+				60E54730A20B3EE406B6BB8B /* [CP] Check Pods Manifest.lock */,
+				8DB7E3F02457D0E900516433 /* Sources */,
+				8DB7E3F12457D0E900516433 /* Frameworks */,
+				8DB7E3F22457D0E900516433 /* Resources */,
+				DDBA637EEAA9FC52C91747BD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DB7E3FA2457D0E900516433 /* PBXTargetDependency */,
+			);
+			name = AppleCardUITests;
+			productName = AppleCardUITests;
+			productReference = 8DB7E3F42457D0E900516433 /* AppleCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8DB7E4012457D0F300516433 /* AppleCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB7E4092457D0F300516433 /* Build configuration list for PBXNativeTarget "AppleCardTests" */;
+			buildPhases = (
+				55A868B6158371C51482589E /* [CP] Check Pods Manifest.lock */,
+				8DB7E3FE2457D0F300516433 /* Sources */,
+				8DB7E3FF2457D0F300516433 /* Frameworks */,
+				8DB7E4002457D0F300516433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DB7E4082457D0F300516433 /* PBXTargetDependency */,
+			);
+			name = AppleCardTests;
+			productName = AppleCardTests;
+			productReference = 8DB7E4022457D0F300516433 /* AppleCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DB7E3C32457D08900516433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Mohammad Azam";
+				TargetAttributes = {
+					8DB7E3CA2457D08900516433 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					8DB7E3E52457D0DE00516433 = {
+						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
+						TestTargetID = 8DB7E3CA2457D08900516433;
+					};
+					8DB7E3F32457D0E900516433 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 8DB7E3CA2457D08900516433;
+					};
+					8DB7E4012457D0F300516433 = {
+						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
+						TestTargetID = 8DB7E3CA2457D08900516433;
+					};
+				};
+			};
+			buildConfigurationList = 8DB7E3C62457D08900516433 /* Build configuration list for PBXProject "AppleCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DB7E3C22457D08900516433;
+			productRefGroup = 8DB7E3CC2457D08900516433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DB7E3CA2457D08900516433 /* AppleCard */,
+				8DB7E3E52457D0DE00516433 /* AppleCardAcceptanceTests */,
+				8DB7E3F32457D0E900516433 /* AppleCardUITests */,
+				8DB7E4012457D0F300516433 /* AppleCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DB7E3C92457D08900516433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB7E3DB2457D08B00516433 /* LaunchScreen.storyboard in Resources */,
+				8DB7E3D82457D08B00516433 /* Preview Assets.xcassets in Resources */,
+				8DB7E3D52457D08B00516433 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB7E3E42457D0DE00516433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF43E182457D19100E6F295 /* Features in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB7E3F22457D0E900516433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB7E4002457D0F300516433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ADC7156419764375CF65BC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleCard-AppleCardAcceptanceTests/Pods-AppleCard-AppleCardAcceptanceTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleCard-AppleCardAcceptanceTests/Pods-AppleCard-AppleCardAcceptanceTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppleCard-AppleCardAcceptanceTests/Pods-AppleCard-AppleCardAcceptanceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BAF9917429AF3295CB9CB98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppleCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55A868B6158371C51482589E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppleCardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E54730A20B3EE406B6BB8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppleCard-AppleCardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C9C822CB5BB9C78073E419B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppleCard-AppleCardAcceptanceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDBA637EEAA9FC52C91747BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleCard-AppleCardUITests/Pods-AppleCard-AppleCardUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleCard-AppleCardUITests/Pods-AppleCard-AppleCardUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppleCard-AppleCardUITests/Pods-AppleCard-AppleCardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DB7E3C72457D08900516433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB7E3CF2457D08900516433 /* AppDelegate.swift in Sources */,
+				8DB7E3D12457D08900516433 /* SceneDelegate.swift in Sources */,
+				8DB7E3D32457D08900516433 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB7E3E22457D0DE00516433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF43E1A2457D1C900E6F295 /* CucumberishLoader.m in Sources */,
+				8DF43E1D2457D1F900E6F295 /* CucumberishInitializer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB7E3F02457D0E900516433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB7E3FE2457D0F300516433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DB7E3EC2457D0DE00516433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB7E3CA2457D08900516433 /* AppleCard */;
+			targetProxy = 8DB7E3EB2457D0DE00516433 /* PBXContainerItemProxy */;
+		};
+		8DB7E3FA2457D0E900516433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB7E3CA2457D08900516433 /* AppleCard */;
+			targetProxy = 8DB7E3F92457D0E900516433 /* PBXContainerItemProxy */;
+		};
+		8DB7E4082457D0F300516433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB7E3CA2457D08900516433 /* AppleCard */;
+			targetProxy = 8DB7E4072457D0F300516433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DB7E3D92457D08B00516433 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DB7E3DA2457D08B00516433 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DB7E3DD2457D08B00516433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DB7E3DE2457D08B00516433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DB7E3E02457D08B00516433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E43C885E31DC4DA2EBBEA00D /* Pods-AppleCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleCard/Preview Content\"";
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AppleCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaberi.AppleCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DB7E3E12457D08B00516433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95723288CFEB7E3FBFD6248F /* Pods-AppleCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleCard/Preview Content\"";
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AppleCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaberi.AppleCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DB7E3EE2457D0DE00516433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8DB726A9657F86C1DD02DB1 /* Pods-AppleCard-AppleCardAcceptanceTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				INFOPLIST_FILE = AppleCardAcceptanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.AppleCardAcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppleCardAcceptanceTests/AppleCardAcceptanceTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleCard;
+			};
+			name = Debug;
+		};
+		8DB7E3EF2457D0DE00516433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB0682C14ED43CE58ADF3113 /* Pods-AppleCard-AppleCardAcceptanceTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				INFOPLIST_FILE = AppleCardAcceptanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.AppleCardAcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppleCardAcceptanceTests/AppleCardAcceptanceTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleCard;
+			};
+			name = Release;
+		};
+		8DB7E3FC2457D0E900516433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 719E8AB347831FF14FAA2846 /* Pods-AppleCard-AppleCardUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				INFOPLIST_FILE = AppleCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.AppleCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleCard;
+			};
+			name = Debug;
+		};
+		8DB7E3FD2457D0E900516433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99DA3727665D0ED47DB1332 /* Pods-AppleCard-AppleCardUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				INFOPLIST_FILE = AppleCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.AppleCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleCard;
+			};
+			name = Release;
+		};
+		8DB7E40A2457D0F300516433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A41B8D991D2DB66B21D1A27 /* Pods-AppleCardTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				INFOPLIST_FILE = AppleCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.AppleCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleCard.app/AppleCard";
+			};
+			name = Debug;
+		};
+		8DB7E40B2457D0F300516433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46DE0C19E65A8FE49DB207B3 /* Pods-AppleCardTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				INFOPLIST_FILE = AppleCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.AppleCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleCard.app/AppleCard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DB7E3C62457D08900516433 /* Build configuration list for PBXProject "AppleCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB7E3DD2457D08B00516433 /* Debug */,
+				8DB7E3DE2457D08B00516433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB7E3DF2457D08B00516433 /* Build configuration list for PBXNativeTarget "AppleCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB7E3E02457D08B00516433 /* Debug */,
+				8DB7E3E12457D08B00516433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB7E3ED2457D0DE00516433 /* Build configuration list for PBXNativeTarget "AppleCardAcceptanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB7E3EE2457D0DE00516433 /* Debug */,
+				8DB7E3EF2457D0DE00516433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB7E3FB2457D0E900516433 /* Build configuration list for PBXNativeTarget "AppleCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB7E3FC2457D0E900516433 /* Debug */,
+				8DB7E3FD2457D0E900516433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB7E4092457D0F300516433 /* Build configuration list for PBXNativeTarget "AppleCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB7E40A2457D0F300516433 /* Debug */,
+				8DB7E40B2457D0F300516433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DB7E3C32457D08900516433 /* Project object */;
+}
