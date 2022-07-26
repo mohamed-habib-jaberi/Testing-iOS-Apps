@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3E909D995450810E8A14A6AA /* Pods_AppleCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70209FAC655E875010E4B26 /* Pods_AppleCard.framework */; };
 		5FE89A716C8942460D85FC2D /* Pods_AppleCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A19B47719FC8FD902FAF42 /* Pods_AppleCardTests.framework */; };
+		611793DD288F469900203A11 /* UnderAgeApplyingCardSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611793DC288F469900203A11 /* UnderAgeApplyingCardSteps.swift */; };
 		7CD6122C30830167DED98736 /* Pods_AppleCard_AppleCardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645F5F7F192CD1F8ED97FC60 /* Pods_AppleCard_AppleCardUITests.framework */; };
 		8DB7E3CF2457D08900516433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB7E3CE2457D08900516433 /* AppDelegate.swift */; };
 		8DB7E3D12457D08900516433 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB7E3D02457D08900516433 /* SceneDelegate.swift */; };
@@ -23,6 +24,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		611793E828908D3B00203A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB7E3C32457D08900516433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB7E3CA2457D08900516433;
+			remoteInfo = AppleCard;
+		};
+		6117942B2890907600203A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB7E3C32457D08900516433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB7E3CA2457D08900516433;
+			remoteInfo = AppleCard;
+		};
 		8DB7E3EB2457D0DE00516433 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8DB7E3C32457D08900516433 /* Project object */;
@@ -51,6 +66,9 @@
 		16A19B47719FC8FD902FAF42 /* Pods_AppleCardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleCardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F19FF60A6887810F1E4E3B /* Pods_AppleCard_AppleCardAcceptanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleCard_AppleCardAcceptanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46DE0C19E65A8FE49DB207B3 /* Pods-AppleCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleCardTests.release.xcconfig"; path = "Target Support Files/Pods-AppleCardTests/Pods-AppleCardTests.release.xcconfig"; sourceTree = "<group>"; };
+		611793DC288F469900203A11 /* UnderAgeApplyingCardSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderAgeApplyingCardSteps.swift; sourceTree = "<group>"; };
+		611793E228908D3B00203A11 /* AppleCardUITestszzzz.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleCardUITestszzzz.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		611794272890907600203A11 /* AppleCardTestsmm.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleCardTestsmm.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		645F5F7F192CD1F8ED97FC60 /* Pods_AppleCard_AppleCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleCard_AppleCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		719E8AB347831FF14FAA2846 /* Pods-AppleCard-AppleCardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleCard-AppleCardUITests.debug.xcconfig"; path = "Target Support Files/Pods-AppleCard-AppleCardUITests/Pods-AppleCard-AppleCardUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8DB7E3CB2457D08900516433 /* AppleCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +98,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		611793DF28908D3B00203A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611794242890907600203A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DB7E3C82457D08900516433 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +147,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		611793DB288F463B00203A11 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				611793DC288F469900203A11 /* UnderAgeApplyingCardSteps.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
 		8DB7E3C22457D08900516433 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +175,8 @@
 				8DB7E3E62457D0DE00516433 /* AppleCardAcceptanceTests.xctest */,
 				8DB7E3F42457D0E900516433 /* AppleCardUITests.xctest */,
 				8DB7E4022457D0F300516433 /* AppleCardTests.xctest */,
+				611793E228908D3B00203A11 /* AppleCardUITestszzzz.xctest */,
+				611794272890907600203A11 /* AppleCardTestsmm.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,6 +206,7 @@
 		8DB7E3E72457D0DE00516433 /* AppleCardAcceptanceTests */ = {
 			isa = PBXGroup;
 			children = (
+				611793DB288F463B00203A11 /* Steps */,
 				8DF43E172457D19100E6F295 /* Features */,
 				8DB7E3EA2457D0DE00516433 /* Info.plist */,
 				8DF43E192457D1C900E6F295 /* CucumberishLoader.m */,
@@ -218,6 +261,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		611793E128908D3B00203A11 /* AppleCardUITestszzzz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611793EA28908D3B00203A11 /* Build configuration list for PBXNativeTarget "AppleCardUITestszzzz" */;
+			buildPhases = (
+				611793DE28908D3B00203A11 /* Sources */,
+				611793DF28908D3B00203A11 /* Frameworks */,
+				611793E028908D3B00203A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				611793E928908D3B00203A11 /* PBXTargetDependency */,
+			);
+			name = AppleCardUITestszzzz;
+			productName = AppleCardUITestszzzz;
+			productReference = 611793E228908D3B00203A11 /* AppleCardUITestszzzz.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		611794262890907600203A11 /* AppleCardTestsmm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6117942D2890907600203A11 /* Build configuration list for PBXNativeTarget "AppleCardTestsmm" */;
+			buildPhases = (
+				611794232890907600203A11 /* Sources */,
+				611794242890907600203A11 /* Frameworks */,
+				611794252890907600203A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6117942C2890907600203A11 /* PBXTargetDependency */,
+			);
+			name = AppleCardTestsmm;
+			productName = AppleCardTestsmm;
+			productReference = 611794272890907600203A11 /* AppleCardTestsmm.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8DB7E3CA2457D08900516433 /* AppleCard */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DB7E3DF2457D08B00516433 /* Build configuration list for PBXNativeTarget "AppleCard" */;
@@ -301,10 +380,18 @@
 		8DB7E3C32457D08900516433 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1140;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Mohammad Azam";
 				TargetAttributes = {
+					611793E128908D3B00203A11 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8DB7E3CA2457D08900516433;
+					};
+					611794262890907600203A11 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8DB7E3CA2457D08900516433;
+					};
 					8DB7E3CA2457D08900516433 = {
 						CreatedOnToolsVersion = 11.4;
 					};
@@ -341,11 +428,27 @@
 				8DB7E3E52457D0DE00516433 /* AppleCardAcceptanceTests */,
 				8DB7E3F32457D0E900516433 /* AppleCardUITests */,
 				8DB7E4012457D0F300516433 /* AppleCardTests */,
+				611793E128908D3B00203A11 /* AppleCardUITestszzzz */,
+				611794262890907600203A11 /* AppleCardTestsmm */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		611793E028908D3B00203A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611794252890907600203A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DB7E3C92457D08900516433 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -506,6 +609,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		611793DE28908D3B00203A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611794232890907600203A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DB7E3C72457D08900516433 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -521,6 +638,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF43E1A2457D1C900E6F295 /* CucumberishLoader.m in Sources */,
+				611793DD288F469900203A11 /* UnderAgeApplyingCardSteps.swift in Sources */,
 				8DF43E1D2457D1F900E6F295 /* CucumberishInitializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,6 +660,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		611793E928908D3B00203A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB7E3CA2457D08900516433 /* AppleCard */;
+			targetProxy = 611793E828908D3B00203A11 /* PBXContainerItemProxy */;
+		};
+		6117942C2890907600203A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB7E3CA2457D08900516433 /* AppleCard */;
+			targetProxy = 6117942B2890907600203A11 /* PBXContainerItemProxy */;
+		};
 		8DB7E3EC2457D0DE00516433 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8DB7E3CA2457D08900516433 /* AppleCard */;
@@ -571,6 +699,108 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		611793EB28908D3B00203A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4M7279BBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jaberi.AppleCardUITestszzzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleCard;
+			};
+			name = Debug;
+		};
+		611793EC28908D3B00203A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4M7279BBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jaberi.AppleCardUITestszzzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleCard;
+			};
+			name = Release;
+		};
+		6117942E2890907600203A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4M7279BBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jaberi.AppleCardTestsmm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleCard.app/AppleCard";
+			};
+			name = Debug;
+		};
+		6117942F2890907600203A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4M7279BBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jaberi.AppleCardTestsmm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleCard.app/AppleCard";
+			};
+			name = Release;
+		};
 		8DB7E3DD2457D08B00516433 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -864,6 +1094,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		611793EA28908D3B00203A11 /* Build configuration list for PBXNativeTarget "AppleCardUITestszzzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611793EB28908D3B00203A11 /* Debug */,
+				611793EC28908D3B00203A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6117942D2890907600203A11 /* Build configuration list for PBXNativeTarget "AppleCardTestsmm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6117942E2890907600203A11 /* Debug */,
+				6117942F2890907600203A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8DB7E3C62457D08900516433 /* Build configuration list for PBXProject "AppleCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
