@@ -206,8 +206,8 @@
 		8DB7E3E72457D0DE00516433 /* AppleCardAcceptanceTests */ = {
 			isa = PBXGroup;
 			children = (
-				611793DB288F463B00203A11 /* Steps */,
 				8DF43E172457D19100E6F295 /* Features */,
+				611793DB288F463B00203A11 /* Steps */,
 				8DB7E3EA2457D0DE00516433 /* Info.plist */,
 				8DF43E192457D1C900E6F295 /* CucumberishLoader.m */,
 				8DF43E1C2457D1F900E6F295 /* CucumberishInitializer.swift */,
