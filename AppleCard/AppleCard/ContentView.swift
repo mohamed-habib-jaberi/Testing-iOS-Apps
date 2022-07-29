@@ -33,7 +33,7 @@ struct ContentView: View {
                     .accessibility(identifier: "dobTextField")
 
                 Button("Apply"){
-
+                   // self.applyCreditCardVM.apply()
                 }.padding(10)
                     .background(Color.green)
                     .foregroundColor(Color.white)
