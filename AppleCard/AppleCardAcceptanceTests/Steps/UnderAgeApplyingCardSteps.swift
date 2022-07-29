@@ -14,9 +14,10 @@ class UnderAgeApplyingCardSteps {
     func run() {
         
         Given("the floiowing user information") { args, userInfo in
+
             XCUIApplication().launch()
 
-            let rows: NSArray = userInfo["DataTable"] as NSArray
+            let rows: NSArray = userInfo?["DataTable"] as! NSArray
             for index in 1..<rows.count{
 
                 let data = rows[ index] as! NSArray
@@ -30,13 +31,11 @@ class UnderAgeApplyingCardSteps {
 
                 let ssnTextField = XCUIApplication().textFields["ssnTextField"]
                 ssnTextField.tap()
-                ssnTextField.typeText(ssnTextField + "\n" )
+                ssnTextField.typeText(ssn + "\n" )
 
                 let dobTextField = XCUIApplication().textFields["dobTextField"]
                 dobTextField.tap()
                 dobTextField.typeText(dob + "\n" )
-
-
             }
         }
         
