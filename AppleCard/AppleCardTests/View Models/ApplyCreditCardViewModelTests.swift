@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import AppleCard
 
 class When_credit_card_is_denied_due_to_age: XCTestCase {
 
@@ -19,6 +20,6 @@ class When_credit_card_is_denied_due_to_age: XCTestCase {
 
         applyCreditCardVM.apply()
 
-        XCTAssertEqual(applyCreditCardVM.message, "Denied; Underage")
+        XCTAssertEqual(applyCreditCardVM.message, "Denied: Underage")
     }
 }

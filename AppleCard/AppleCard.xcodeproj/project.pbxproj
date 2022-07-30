@@ -10,6 +10,9 @@
 		3E909D995450810E8A14A6AA /* Pods_AppleCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70209FAC655E875010E4B26 /* Pods_AppleCard.framework */; };
 		5FE89A716C8942460D85FC2D /* Pods_AppleCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A19B47719FC8FD902FAF42 /* Pods_AppleCardTests.framework */; };
 		611793DD288F469900203A11 /* UnderAgeApplyingCardSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611793DC288F469900203A11 /* UnderAgeApplyingCardSteps.swift */; };
+		61C16B5D2894775B005101C7 /* ApplyCreditCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C16B5C2894775B005101C7 /* ApplyCreditCardViewModel.swift */; };
+		61C16B60289478F6005101C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C16B5F289478F6005101C7 /* User.swift */; };
+		61C16B6328947CE7005101C7 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C16B6228947CE7005101C7 /* String+Extensions.swift */; };
 		7CD6122C30830167DED98736 /* Pods_AppleCard_AppleCardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645F5F7F192CD1F8ED97FC60 /* Pods_AppleCard_AppleCardUITests.framework */; };
 		88EB92E22894327D00A704FB /* ApplyCreditCardViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB92E12894327D00A704FB /* ApplyCreditCardViewModelTests.swift */; };
 		8DB7E3CF2457D08900516433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB7E3CE2457D08900516433 /* AppDelegate.swift */; };
@@ -70,6 +73,9 @@
 		611793DC288F469900203A11 /* UnderAgeApplyingCardSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderAgeApplyingCardSteps.swift; sourceTree = "<group>"; };
 		611793E228908D3B00203A11 /* AppleCardUITestszzzz.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleCardUITestszzzz.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		611794272890907600203A11 /* AppleCardTestsmm.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleCardTestsmm.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C16B5C2894775B005101C7 /* ApplyCreditCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyCreditCardViewModel.swift; sourceTree = "<group>"; };
+		61C16B5F289478F6005101C7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		61C16B6228947CE7005101C7 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		645F5F7F192CD1F8ED97FC60 /* Pods_AppleCard_AppleCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleCard_AppleCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		719E8AB347831FF14FAA2846 /* Pods-AppleCard-AppleCardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleCard-AppleCardUITests.debug.xcconfig"; path = "Target Support Files/Pods-AppleCard-AppleCardUITests/Pods-AppleCard-AppleCardUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		88EB92E02894327C00A704FB /* AppleCardTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleCardTests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -158,6 +164,38 @@
 			path = Steps;
 			sourceTree = "<group>";
 		};
+		61C16B5A289476E5005101C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = "Öodels";
+			sourceTree = "<group>";
+		};
+		61C16B5B2894772A005101C7 /* view Models */ = {
+			isa = PBXGroup;
+			children = (
+				61C16B5C2894775B005101C7 /* ApplyCreditCardViewModel.swift */,
+			);
+			path = "view Models";
+			sourceTree = "<group>";
+		};
+		61C16B5E289478E2005101C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				61C16B5F289478F6005101C7 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		61C16B6128947CAA005101C7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				61C16B6228947CE7005101C7 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		88EB92DE2894321100A704FB /* View Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,13 +203,6 @@
 				88EB92E02894327C00A704FB /* AppleCardTests-Bridging-Header.h */,
 			);
 			path = "View Models";
-			sourceTree = "<group>";
-		};
-		88EB92DF2894322100A704FB /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		8DB7E3C22457D08900516433 = {
@@ -203,6 +234,9 @@
 		8DB7E3CD2457D08900516433 /* AppleCard */ = {
 			isa = PBXGroup;
 			children = (
+				61C16B6128947CAA005101C7 /* Extensions */,
+				61C16B5E289478E2005101C7 /* Models */,
+				61C16B5B2894772A005101C7 /* view Models */,
 				8DB7E3CE2457D08900516433 /* AppDelegate.swift */,
 				8DB7E3D02457D08900516433 /* SceneDelegate.swift */,
 				8DB7E3D22457D08900516433 /* ContentView.swift */,
@@ -246,7 +280,7 @@
 		8DB7E4032457D0F300516433 /* AppleCardTests */ = {
 			isa = PBXGroup;
 			children = (
-				88EB92DF2894322100A704FB /* Models */,
+				61C16B5A289476E5005101C7 /* Models */,
 				88EB92DE2894321100A704FB /* View Models */,
 				8DB7E4062457D0F300516433 /* Info.plist */,
 			);
@@ -648,8 +682,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61C16B5D2894775B005101C7 /* ApplyCreditCardViewModel.swift in Sources */,
 				8DB7E3CF2457D08900516433 /* AppDelegate.swift in Sources */,
 				8DB7E3D12457D08900516433 /* SceneDelegate.swift in Sources */,
+				61C16B60289478F6005101C7 /* User.swift in Sources */,
+				61C16B6328947CE7005101C7 /* String+Extensions.swift in Sources */,
 				8DB7E3D32457D08900516433 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
