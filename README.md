@@ -1,14 +1,23 @@
 # Testing-iOS-Apps
 
-#push new file :
+Learn Unit Testing, Test Driven Development and Behavior Driven Development in iOS Using Swift Language
 
-git pull
+#the contents of the course:
 
-git add .
+- Understanding Test Driven Development
 
-git commit -m "Write a unit test to withdraw amount from a bank account
-"
+- Types of Testing
 
-git remote add origin https://github.com/mohamed-habib-jaberi/Testing-iOS-Apps.git
+- Test Driven Development Life Cycle
 
-git push -u origin main         
+- Test Expectations
+
+- Dependency Injection and Mocks
+
+- Understanding Behavior Driven Development
+
+- Cucumberish Framework
+
+- Building Credit Card APR Calculation Features
+
+     
