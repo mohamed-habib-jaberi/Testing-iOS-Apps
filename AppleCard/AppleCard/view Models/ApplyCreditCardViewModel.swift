@@ -8,15 +8,16 @@
 
 import Foundation
 
-class ApplyCreditCardViewModel {
+class ApplyCreditCardViewModel: ObservableObject {
     var name: String = ""
     var ssn: String = ""
     var dob: String = ""
     
-    var message: String = ""
+   @Published var message: String = ""
     
     private var user: User {
-        return User(name: self.name, ssn: self.ssn, dob: self.dob.toDate())
+       
+        return User(name: self.name, ssn: self.ssn, dob: self.dob.toDate()!)
     }
     
     func apply() {

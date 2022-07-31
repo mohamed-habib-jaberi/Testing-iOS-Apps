@@ -10,37 +10,38 @@ import SwiftUI
 
 struct ContentView: View {
 
-    @State private var name: String = ""
-    @State private var ssn: String = ""
-    @State private var dob: String = ""
-    @State private var message: String = ""
+    @ObservedObject var applyCreditCardVM: ApplyCreditCardViewModel
+    
+    init(){
+        self.applyCreditCardVM = ApplyCreditCardViewModel()
+    }
 
     var body: some View {
         
         NavigationView{
 
             VStack{
-                TextField("Enter name", text: $name)
+                TextField("Enter name", text: self.$applyCreditCardVM.name)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .accessibility(identifier: "nameTextField")
 
-                TextField("Enter ssn", text: $ssn)
+                TextField("Enter ssn", text: self.$applyCreditCardVM.ssn)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .accessibility(identifier: "ssnTextField")
 
-                TextField("Enter dob", text: $dob)
+                TextField("Enter dob", text: self.$applyCreditCardVM.dob)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .accessibility(identifier: "dobTextField")
 
                 Button("Apply"){
-                   // self.applyCreditCardVM.apply()
+                    self.applyCreditCardVM.apply()
                 }.padding(10)
                     .background(Color.green)
                     .foregroundColor(Color.white)
                     .cornerRadius(10)
                     .accessibility(identifier: "applyButton")
 
-                Text(message)
+                Text(self.applyCreditCardVM.message)
                     .accessibility(identifier: "messageLabel")
 
                 Spacer()
@@ -54,6 +55,8 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+        }
     }
 }
