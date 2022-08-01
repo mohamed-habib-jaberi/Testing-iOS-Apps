@@ -11,6 +11,10 @@ import XCTest
 
 class ApplyCreditCardPage {
     
+    func launch()  {
+        XCUIApplication().launch()
+    }
+    
     func typeInName(_ text: String){
         
         let nameTextField = XCUIApplication().textFields["nameTextField"]
@@ -38,5 +42,9 @@ class ApplyCreditCardPage {
     var messageText: String {
         let messageLabel = XCUIApplication().staticTexts[ "messageLabel"]
         return messageLabel.label
+    }
+    
+    var messageLabel: XCUIElement {
+        return XCUIApplication().staticTexts[ "messageLabel"]
     }
 }
