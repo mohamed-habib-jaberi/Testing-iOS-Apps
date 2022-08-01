@@ -11,6 +11,7 @@
 		5FE89A716C8942460D85FC2D /* Pods_AppleCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A19B47719FC8FD902FAF42 /* Pods_AppleCardTests.framework */; };
 		61111DB6289861F100008379 /* ApplyCreditCardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61111DB5289861F100008379 /* ApplyCreditCardPage.swift */; };
 		61111DB728986D2000008379 /* ApplyCreditCardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61111DB5289861F100008379 /* ApplyCreditCardPage.swift */; };
+		61111DB928987DDA00008379 /* CreditCardAPRSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61111DB828987DDA00008379 /* CreditCardAPRSteps.swift */; };
 		611793DD288F469900203A11 /* UnderAgeApplyingCardSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611793DC288F469900203A11 /* UnderAgeApplyingCardSteps.swift */; };
 		617B62082896F3D100EBA9B1 /* ApplyCreditCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617B62072896F3D100EBA9B1 /* ApplyCreditCardUITests.swift */; };
 		61A7B2D9289570A700C3A163 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7B2D8289570A700C3A163 /* UserTests.swift */; };
@@ -61,6 +62,7 @@
 		45F19FF60A6887810F1E4E3B /* Pods_AppleCard_AppleCardAcceptanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleCard_AppleCardAcceptanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46DE0C19E65A8FE49DB207B3 /* Pods-AppleCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleCardTests.release.xcconfig"; path = "Target Support Files/Pods-AppleCardTests/Pods-AppleCardTests.release.xcconfig"; sourceTree = "<group>"; };
 		61111DB5289861F100008379 /* ApplyCreditCardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyCreditCardPage.swift; sourceTree = "<group>"; };
+		61111DB828987DDA00008379 /* CreditCardAPRSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardAPRSteps.swift; sourceTree = "<group>"; };
 		611793DC288F469900203A11 /* UnderAgeApplyingCardSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderAgeApplyingCardSteps.swift; sourceTree = "<group>"; };
 		617B62062896F3D000EBA9B1 /* AppleCardUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleCardUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		617B62072896F3D100EBA9B1 /* ApplyCreditCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyCreditCardUITests.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				611793DC288F469900203A11 /* UnderAgeApplyingCardSteps.swift */,
+				61111DB828987DDA00008379 /* CreditCardAPRSteps.swift */,
 			);
 			path = Steps;
 			sourceTree = "<group>";
@@ -610,6 +613,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61111DB928987DDA00008379 /* CreditCardAPRSteps.swift in Sources */,
 				61111DB728986D2000008379 /* ApplyCreditCardPage.swift in Sources */,
 				8DF43E1A2457D1C900E6F295 /* CucumberishLoader.m in Sources */,
 				611793DD288F469900203A11 /* UnderAgeApplyingCardSteps.swift in Sources */,
