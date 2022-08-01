@@ -13,6 +13,8 @@ import XCTest
 class UnderAgeApplyingCardSteps {
     func run() {
         
+        let applyCreditCardPage = ApplyCreditCardPage()
+        
         Given("the following user information") { args, userInfo in
 
             XCUIApplication().launch()
@@ -25,27 +27,36 @@ class UnderAgeApplyingCardSteps {
                 let ssn = data[1] as! String
                 let dob = data[2] as! String
 
-                let nameTextField = XCUIApplication().textFields["nameTextField"]
-                nameTextField.tap()
-                nameTextField.typeText(name + "\n" )
+//                let nameTextField = XCUIApplication().textFields["nameTextField"]
+//                nameTextField.tap()
+//                nameTextField.typeText(name + "\n" )
+                
+                applyCreditCardPage.typeInName(name)
 
-                let ssnTextField = XCUIApplication().textFields["ssnTextField"]
-                ssnTextField.tap()
-                ssnTextField.typeText(ssn + "\n" )
+//                let ssnTextField = XCUIApplication().textFields["ssnTextField"]
+//                ssnTextField.tap()
+//                ssnTextField.typeText(ssn + "\n" )
+                
+                applyCreditCardPage.typeInSSN(ssn)
 
-                let dobTextField = XCUIApplication().textFields["dobTextField"]
-                dobTextField.tap()
-                dobTextField.typeText(dob + "\n" )
+//                let dobTextField = XCUIApplication().textFields["dobTextField"]
+//                dobTextField.tap()
+//                dobTextField.typeText(dob + "\n" )
+                
+                applyCreditCardPage.typeInDOB(dob)
             }
         }
         
         When("I press the apply button") { _, _ in
-            XCUIApplication().buttons["applyButton"].tap()
+           // XCUIApplication().buttons["applyButton"].tap()
+            applyCreditCardPage.tapApplyButton()
         }
         
         Then("I should get a rejection message") { _,_ in
-            let messageLabel = XCUIApplication().staticTexts[ "messageLabel"]
-            XCTAssertEqual("Denied: Underage", messageLabel.label)
+           // let messageLabel = XCUIApplication().staticTexts[ "messageLabel"]
+            
+            let messageText = applyCreditCardPage.messageText
+            XCTAssertEqual("Denied: Underage", messageText)
         }
     }
 }

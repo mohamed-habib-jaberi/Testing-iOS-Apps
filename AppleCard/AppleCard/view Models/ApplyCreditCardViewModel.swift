@@ -13,7 +13,7 @@ class ApplyCreditCardViewModel: ObservableObject {
     var ssn: String = ""
     var dob: String = ""
     
-   @Published var message: String = "Denied: Underage"
+   @Published var message: String = ""
     
     private var user: User {
        

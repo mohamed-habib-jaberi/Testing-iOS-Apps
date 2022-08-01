@@ -9,7 +9,7 @@ target 'AppleCard' do
 
   target 'AppleCardAcceptanceTests' do
     # Pods for testing
-    pod 'Cucumberish' 
+    pod 'Cucumberish'
   end
 
   target 'AppleCardTests' do

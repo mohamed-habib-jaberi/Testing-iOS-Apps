@@ -10,6 +10,7 @@
 		3E909D995450810E8A14A6AA /* Pods_AppleCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70209FAC655E875010E4B26 /* Pods_AppleCard.framework */; };
 		5FE89A716C8942460D85FC2D /* Pods_AppleCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A19B47719FC8FD902FAF42 /* Pods_AppleCardTests.framework */; };
 		61111DB6289861F100008379 /* ApplyCreditCardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61111DB5289861F100008379 /* ApplyCreditCardPage.swift */; };
+		61111DB728986D2000008379 /* ApplyCreditCardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61111DB5289861F100008379 /* ApplyCreditCardPage.swift */; };
 		611793DD288F469900203A11 /* UnderAgeApplyingCardSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611793DC288F469900203A11 /* UnderAgeApplyingCardSteps.swift */; };
 		617B62082896F3D100EBA9B1 /* ApplyCreditCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617B62072896F3D100EBA9B1 /* ApplyCreditCardUITests.swift */; };
 		61A7B2D9289570A700C3A163 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7B2D8289570A700C3A163 /* UserTests.swift */; };
@@ -329,7 +330,7 @@
 				8DB7E3E22457D0DE00516433 /* Sources */,
 				8DB7E3E32457D0DE00516433 /* Frameworks */,
 				8DB7E3E42457D0DE00516433 /* Resources */,
-				0ADC7156419764375CF65BC9 /* [CP] Embed Pods Frameworks */,
+				17A44DFFE99509D95BCD92AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -467,7 +468,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0ADC7156419764375CF65BC9 /* [CP] Embed Pods Frameworks */ = {
+		17A44DFFE99509D95BCD92AF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -609,6 +610,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61111DB728986D2000008379 /* ApplyCreditCardPage.swift in Sources */,
 				8DF43E1A2457D1C900E6F295 /* CucumberishLoader.m in Sources */,
 				611793DD288F469900203A11 /* UnderAgeApplyingCardSteps.swift in Sources */,
 				8DF43E1D2457D1F900E6F295 /* CucumberishInitializer.swift in Sources */,

@@ -7,156 +7,156 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		046FE514173DAB5E7D49F823B2737751 /* GHScenario.m in Sources */ = {isa = PBXBuildFile; fileRef = 650FA38E25004B59E15E412DF3F30D05 /* GHScenario.m */; };
-		04E6FB7D36F211C6B9D487E9BBF63E4F /* GHDataTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 64732C20DE3C29543B16DBCD2EA81EE4 /* GHDataTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		073DEB9C22A2DA1A9E15FA1F357D57B8 /* GHAstNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2813AFFCB1F8FE231EDC7EBC510B8644 /* GHAstNode.m */; };
-		0947792814EDB71FE4F1E643EE596B5D /* GHLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 820EDCCA0C4083A08EED5C3F30D04D97 /* GHLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0BDC418ADC122EA04DB0C0069F973E9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
-		0E92E235F044AEA4A56EFAE287FC12C7 /* GHGherkinLineSpan.h in Headers */ = {isa = PBXBuildFile; fileRef = 324CC0CD6977474E7AB49AE4E5535611 /* GHGherkinLineSpan.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0EDB48F69E4072FE796EE7483D4112BE /* CCIJSONDumper.h in Headers */ = {isa = PBXBuildFile; fileRef = F0129EF6F825CF3691CC16C5B23A3CB4 /* CCIJSONDumper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		102B140361765DC71B096F90ECFE96A3 /* GHScenarioDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 517BE3A48F3436354B2377C406F01892 /* GHScenarioDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		12F8BBA4FD338CC422E7C6871EA1B144 /* GHBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = F87DF4AB53AA5A5A6BEA40AD32768746 /* GHBackground.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1418761D309B51DDD57CE197EE4A698C /* GHTag.m in Sources */ = {isa = PBXBuildFile; fileRef = B412804B97687FF2DCA24DD4564444E1 /* GHTag.m */; };
-		14CE26C65D44C45E3B29DC215C33CAAA /* GHExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C9EF1285FE879BB8349219244FBD93 /* GHExamples.m */; };
-		14E210C4980084D74D07FA4870BB3394 /* GHComment.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AE3DD0621073C03ABE8869014DEB79 /* GHComment.m */; };
-		1587859FEA1B5946FF07461D51D93EFD /* GHTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = B6164E4E28B63849993AD8BB343A76AC /* GHTableRow.m */; };
-		1749C2BDA20C89E23776432F3F33529C /* GHAstNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 45738E829DF8D0DA455C565FE2003C04 /* GHAstNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1DAF6A906B0656F00F1B06C8BB571F79 /* CCIArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD2F3AD55B1A84CE1BE99AFBBCFA9D5 /* CCIArgument.m */; };
-		1F7C10D754268C14F1BABE762F43CAC2 /* GHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B6893399D03CFC00FA2D6D26E16E43 /* GHNode.m */; };
-		20FB8713FC2DB3A4A009CE1542C09760 /* CCIFeaturesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 01ECCB9B255A0FD148502F54094633EF /* CCIFeaturesManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		21030810185655D36DE5E466FFC80FE4 /* CCILoggingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3D420681CC54B5FB09846866A0590 /* CCILoggingManager.m */; };
-		21E44C799C90ED5C2B1C1B5FCB6284B4 /* GHStepArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 05438041845BA0C4FBD59B1728A9482D /* GHStepArgument.m */; };
-		2365672CC1C2B01EBB4919769D3768DB /* CCIStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 022109451555B115BDCE6721F27AF68B /* CCIStep.m */; };
-		28827E10FF1D3031313359A39531FAB5 /* GHParserException.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C95069E5654BFA026EFD35CCD37CBF /* GHParserException.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		296ACD887FCB0B9A07F62F9CA5D43671 /* CCIStepDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2BE69579334068619C3703F7C8BE08 /* CCIStepDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2A6ADD58B71819333DD4F948732D279A /* CCIHock.h in Headers */ = {isa = PBXBuildFile; fileRef = 2471F7F15B3577FDA176017784CF02C4 /* CCIHock.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2E2C7BD79F5B2CA3579252733E53B35D /* GHTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E7740A6EFFF16A909C246C8C8FED1EB /* GHTag.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2F62604508A73DD2929227AA0ED92C15 /* GHGherkinDialectProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = BB23E586522B4E86D09692861E7E728E /* GHGherkinDialectProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		30DB2B0E28C9F39EAE3ADC5D4F493080 /* GHStepArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 8189575E6A8E4A136D84D8BFCF6739A9 /* GHStepArgument.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		30EB55B537AFAD1CF1DE87BC37CFD1E7 /* CCIStepsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7204EF899846EE00EE8BEA9A45909CE9 /* CCIStepsManager.m */; };
-		31422977362E9B33738E6B4D0F3450B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
-		32A626117F85027615A378658D3C9988 /* NSString+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E0F288621ECD7770107673B89A733 /* NSString+Formatter.m */; };
-		33EDF24658EF2A0BD561D8CAC5CA7FE2 /* CCIHock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2DD824A68CF37B6AC072C86FAF8BBB /* CCIHock.m */; };
-		345E30979B75C863BAC7712B3DC7F47E /* CCIScenarioDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDBECAEDBD9ABB9FFF111533AEB70F8 /* CCIScenarioDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36EB55EF354CE2C81A1B24E87B9597D0 /* GHTokenScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = CC54EEE362A2A100DFC1E037B3C0C885 /* GHTokenScanner.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3A2DCE531F74D85E02376207BD30C87D /* GHGherkinDialectProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AEF4768441890C53D095B480625EB4 /* GHGherkinDialectProvider.m */; };
-		3A62BF2104FC1E478F8766D0326D3BC4 /* Pods-AppleCardTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C14F865D22F084579A5D2B5070E08A6D /* Pods-AppleCardTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B33476BCA37FF6C6F3BFC2FFD2C3F59 /* CCIStepDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB252731837BBC285601350889D0045 /* CCIStepDefinition.m */; };
-		3B6611F44BC45A7D2BF4A3B4C53957F3 /* CCIScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE128ADAEF4FF5386ADED07E4EE0EE2 /* CCIScenarioDefinition.m */; };
-		3F7B14F0BED271305714387601ADA0F0 /* GHGherkinLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 338A66279D8E59DA7E43572A160886B4 /* GHGherkinLine.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		42DBA8B82CDDCAAC6C65B6CF3734F1D7 /* Pods-AppleCard-AppleCardUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6564172666143C8A74A8357CB6209B9B /* Pods-AppleCard-AppleCardUITests-dummy.m */; };
-		43F39D826DA29467787845B4F44A10A7 /* GHGherkinDialectProviderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 95598AC0CF76C664F2030F4963BFDB04 /* GHGherkinDialectProviderProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		441E573B506F0A9F78AA2DC7FB30F0C3 /* GHAstBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFFC2ABD22AE6D3A7AF42B28A5ECCDF /* GHAstBuilder.m */; };
-		445EB4DB4B28997ADD2CCBEBED393147 /* GHTokenScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = CF505FD5D01F2AEA36391AF8D042BE12 /* GHTokenScanner.m */; };
-		44DF3DAB87B09A1B43911999235C13E0 /* GHGherkinLanguageConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 277DAAF94C60860CA39E492820F1214F /* GHGherkinLanguageConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46BDE1399765760BC0A5417D3513D50F /* GHExamples.h in Headers */ = {isa = PBXBuildFile; fileRef = 68673BE13B2F9A5D0D609B3ACFEB832A /* GHExamples.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4BD1F25725BD4F9BCA52EBD9D4AFD294 /* CCIExample.h in Headers */ = {isa = PBXBuildFile; fileRef = B1CA7E02AD3124457A541DC08D8101B5 /* CCIExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D5C2CED2F23B56D395DE1CD819063D1 /* GHBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 777A726A890AFCA8A2B80CDC7F466E54 /* GHBackground.m */; };
-		530C216317E68CC41640B7D379F58673 /* Pods-AppleCard-AppleCardAcceptanceTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E45AE71CA934E243C1A5936258EE1817 /* Pods-AppleCard-AppleCardAcceptanceTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55C2082E233D91CA59515E661DE9DE3A /* GHParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3C0E3FC4E110C325C2133AEF2A9F59 /* GHParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		570AE58E20C14F473845AE0EF03EA6E2 /* Pods-AppleCard-AppleCardUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B36D52AA9DFF723BEE25CFA5021C5C8F /* Pods-AppleCard-AppleCardUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		589F8258239D07F0A9606FA288EF6701 /* GHHasTagsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0BFE213308548EFC494CE1836B99D2 /* GHHasTagsProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		608E23A60ACBD7881E43BBC6303BB7FE /* GHGherkinLanguageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AACA6B604E05A5695B6F35A90C12E12 /* GHGherkinLanguageConstants.m */; };
-		6209901FB6AD1ADF41205818B54FF9E0 /* GHTokenMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F1049291AAD49E48CAD00F407D01F822 /* GHTokenMatcher.m */; };
-		63C6D2E367E7C7EBE6C13E14A5072777 /* CCILocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B48B95A156243EF7CF695B587737DA /* CCILocation.m */; };
-		68C0BCF63A97D1B55F44EC83DC66511B /* GHScenarioOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF80C343F6ECAB9CD44CDEB8725D449 /* GHScenarioOutline.m */; };
-		6A478CE399F4DA31027885C24CE0AEB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
-		6D069C77BDAF17DD88C34EF13317815F /* GHGherkinLine.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF60BAF0C345636AFFAE3664F7CF28A /* GHGherkinLine.m */; };
-		6E4221A971A167E9DF2AD6B1DAFF01F8 /* GHHasStepsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD31784EF8F3300FE03816CF389C01B /* GHHasStepsProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6F012F75F8071B807A4E971A936080DB /* GHToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BEEB8FBDBE0941DA9D5D355AD2DD989 /* GHToken.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6FDD0E5F5CD412269E079A5C6BBDE40F /* GHHasLocationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9CCA480FEFD20968E0C89CC76F4517 /* GHHasLocationProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		70D7E1DCEF7E3A26A5D42CE51F21989D /* CCIExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F27C95CE5C76121AAD841AECF15CA3 /* CCIExample.m */; };
-		72899AE4D20E1B6E6D797D4443636102 /* gherkin-languages.json in Resources */ = {isa = PBXBuildFile; fileRef = F467425D6A55DCE5E4DC19DF5DDF8F1F /* gherkin-languages.json */; };
-		775A076D4CB12CAB621387EA921D2592 /* CCIFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 77CA34FCDA7567156C82A185247B9E3D /* CCIFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D0FE5D8AA5556348E6D6623EAE793C6 /* GHTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A2F509E2FB8A7CAF714B0253C1F7C3 /* GHTableCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7DA1B5D5A39F3220EAF5DEABAF4665A8 /* CCILocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F4421F99454E7AAEA2B99B9DC3051C /* CCILocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E3066C9F123557A07AB9B51F3DA26AA /* NSArray+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B2F95F4AA51F08C8B3E857A619A93D /* NSArray+Hashes.m */; };
-		83F3490D903DA778B68955F643293C8F /* CCIBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3AAA00DD10989A6409967C7C6294C4 /* CCIBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85C1A88861A0FE200131C373CD290F40 /* CCIAroundHock.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB8B40F2D272317894C2848C6B77BD5 /* CCIAroundHock.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8613B4CC5D937083E1F1653F1982FFBB /* Cucumberish-GherkinLanguages in Resources */ = {isa = PBXBuildFile; fileRef = F5F0E2648A0225A680D9DA04D583F1A4 /* Cucumberish-GherkinLanguages */; };
-		893F7C075581BAC6F0F57C8347449A03 /* GHDocString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F8E84553EFBA9FF120A824878B490 /* GHDocString.m */; };
-		8B39BD48ADCE63DA227CFA31F06AF86C /* GHScenario.h in Headers */ = {isa = PBXBuildFile; fileRef = 288FE49C1B8EA98AA37D68D0651B5605 /* GHScenario.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		902038854C5EBE9E343DED51FAAA7910 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
-		92C1F4A37A0E5DB1B4EDB5FCC8D39D01 /* GHHasDescriptionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C5D5FA59DE811CD3A43AA43AD61C55B /* GHHasDescriptionProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9688561AC72EAEFBB016386BF941E26C /* GHGherkinLineProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D91A280B9CB9EA5B327C476C683AC6E4 /* GHGherkinLineProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		97797EA7C38C4D5F71C9FFBAAFF25D80 /* Pods-AppleCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC614413723C336D38E9C5239389175 /* Pods-AppleCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		986B4958CA5F5A9EEF905477C4E8DBA8 /* Pods-AppleCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5646D1FA848A9E4E63467F8D6A086496 /* Pods-AppleCard-dummy.m */; };
-		9BCD22B5779AE0CE27898D994791F4A8 /* GHDataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC9D452088CE277BBDC950A6697FF4 /* GHDataTable.m */; };
-		9EEC8B15FB9CF5C882719D533C88126D /* Pods-AppleCardTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EB2E62803233FC079259C1CAA9CB48 /* Pods-AppleCardTests-dummy.m */; };
-		A1CB41EE7F5CFB93D40BAA292CA1DCFF /* GHDocString.h in Headers */ = {isa = PBXBuildFile; fileRef = A14A0427F1A9DA820436C4FD65F84AE8 /* GHDocString.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A1CD8B433B83BF1928DF7792285927FA /* GHGherkinLineSpan.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C38508C41FBEB3EA8B8BEFAC0925835 /* GHGherkinLineSpan.m */; };
-		A1FE48429AE4C83C7CAF20513FA07E06 /* GHParserException.m in Sources */ = {isa = PBXBuildFile; fileRef = 446DE175BE52840388C59F46A1260572 /* GHParserException.m */; };
-		A345C8EF58BEBB5C1C540CBAFBE6C009 /* CCIStepsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 685D8FFD0D4285A10EEFF85E3B9F4852 /* CCIStepsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A351B5858EF496883AEB1EDD5085D909 /* Cucumberish.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B79EA3B08E7504A6442165F640E97D /* Cucumberish.m */; };
-		A3CBFB2F26915C84F648C4EB460AA363 /* NSArray+Hashes.h in Headers */ = {isa = PBXBuildFile; fileRef = C3EB32214963AF75DC1E519ACB1FC41B /* NSArray+Hashes.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A4E83D328B4CE62AD8E20C261E0FC9F6 /* Cucumberish-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9887CBFCD4CAF9BCFAD4EB1C984219BB /* Cucumberish-dummy.m */; };
-		A8C333E69FDD405B71640CE021B69487 /* GHFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = C391A90AEB1FECA50EFA4D9013535BC8 /* GHFeature.m */; };
-		B3FC83C43A6F092E4A10641826E7D8C2 /* CCILoggingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A00C85ACE1F33655A510D9BFF530AEA /* CCILoggingManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B5BF57AEF75FD3F345B4B1149A099346 /* CCIStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 7505D9DC744FD97173FD8C2D16836EB1 /* CCIStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7C1DC503C202243F3F2484B3853488E /* GHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3268A05779223E5DD06DB0099886DEAD /* GHLocation.m */; };
-		B8E309048D57C0C2CED0C67B878D5CB0 /* GHParser+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9E8196C3CE38EE589CFED578A77504 /* GHParser+Extensions.m */; };
-		B975AE376CAB94291385DD1D2FB13A2E /* NSString+Formatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E7F2BA66F6757BD168F9A823437DDF3 /* NSString+Formatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BC47A485ED91DA9B2F565126D1E32B56 /* GHScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E99D40A4578E31F0153B75C7580186E /* GHScenarioDefinition.m */; };
-		BC7BC4B17182CDCD563F837AA140B4B8 /* GHScenarioOutline.h in Headers */ = {isa = PBXBuildFile; fileRef = 703ED984A8120DC85079AD5F4802B8CB /* GHScenarioOutline.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BF2744A317CBFB89FF53E617A12BEC11 /* GHGherkinLanguageSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = A720BFA9C6F84BF4AE224661CF9FDDDB /* GHGherkinLanguageSetting.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C14F4970D3AA96C2268C3036CD18941E /* GHTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBC85E1B4594527088FCB8D3986742E /* GHTableCell.m */; };
-		C1B85A9CD1BA034142D28A4C9F19A3AD /* GHParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE0C01786B8EB7B4C4C72DDB6A89225 /* GHParser.m */; };
-		C2EB26B651228E1BCE61A88EEEE76F3F /* GHStep.h in Headers */ = {isa = PBXBuildFile; fileRef = DD74E32AE1868CE3E7B17DF195556B70 /* GHStep.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C3F3DB1824830C27009DFDF45224D3A5 /* Cucumberish-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 987713458BA8B929FDD810A2FDBFBAF9 /* Cucumberish-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C44F6BD4DA3EABCCF0F0C9CE695729F8 /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = B0656C19F8637D18EC1790747FF974A0 /* NSString+Trim.m */; };
-		C4B426233818A5781EE39411AF342B1D /* GHGherkinDialect.h in Headers */ = {isa = PBXBuildFile; fileRef = BA75DACD90C961E4DE0BE6E4D54C86CE /* GHGherkinDialect.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C5B2CE6E09C875A90911C59E0F40EA59 /* Pods-AppleCard-AppleCardAcceptanceTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C93BC0978E8C1A28882339294BCCA4 /* Pods-AppleCard-AppleCardAcceptanceTests-dummy.m */; };
-		C85F57E600A85033809D5C81B9231544 /* NSString+Trim.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A031D86DA808D39D133C4E94348B99C /* NSString+Trim.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C8E2B660CAFE2A539C130570099E13C8 /* GHHasRowsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 93697DF73EC495CA7A68F01FFDA64DBA /* GHHasRowsProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C9D196C23972A19A38A0CF6DF5857C49 /* Cucumberish.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E8062CD4AE249CA288EEEE73D9D172 /* Cucumberish.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA0E58DEB65B736FAC9CA5C45556B7ED /* GHFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 697E280E1FD28ED6BFEB17AFBFE69917 /* GHFeature.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CACC240A5D9A8D69FDBDFBF0833EF132 /* GHStep.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE5E6B1F929B0CA8C8F28C4A350529A /* GHStep.m */; };
-		CD8BE3E6D65357D3E9985C1F89530B8D /* GHGherkinDialect.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D1791ADA76551A71FE98BB112A4CB8 /* GHGherkinDialect.m */; };
-		CDAB7356A14AA2C93D2936FEADCFA88D /* CCIArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACF55BE74F415B981E0A875D56575EC /* CCIArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE0A8E039A2A747E37E5532CC66D1211 /* GHToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 4452573009427BEF88468CB48CC009ED /* GHToken.m */; };
-		D171099363C6AE255027A5E560E131FB /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB57CE3D75B3C15365AE7542E593C61 /* NSObject+Dictionary.m */; };
-		D2D08199BCDDE7492DC093B2C2CB0354 /* GHGherkinLanguageSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B4E9AF105A3F457B7F5D3C8395FB31 /* GHGherkinLanguageSetting.m */; };
-		D373DD80EE74193BEFB7F9E81A85050D /* NSObject+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B7912F4F7872D30D227324E3CC801F /* NSObject+Dictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E3068DF52B96B037B1DBDADB1CB12E18 /* CCIAroundHock.m in Sources */ = {isa = PBXBuildFile; fileRef = B18C7F51C725F9D0B861DA61BC5A9587 /* CCIAroundHock.m */; };
-		E5C50F5371D79E60832452AF505B4807 /* GHTokenMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = AC938E7E449588A3B8AA48EA98E72674 /* GHTokenMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E62F4E1D1BCB93AFADB760600B9AE6B1 /* CCIFeaturesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FB2E7C943891F9C6F6C6CD8BE94B32 /* CCIFeaturesManager.m */; };
-		E704A5C0C419700095477325642D0830 /* GHAstBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A0A0C813FEE658E6D5C1EAD56BEEE6 /* GHAstBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E87ECD01B8A7697B6C492BEEB4BFE512 /* GHNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D2589C9290B5A779B24901EE68A65C /* GHNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E9973F07C2CD37069C7406A58B849A21 /* GHParser+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C13CC8FB1E44B4DEE2F38C95FA421701 /* GHParser+Extensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E9E935F1BA484EE8E3F0F99ABBD34CD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
-		EAC7CEEB6DF92DDD8476575B51EA7D37 /* CCIFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = B5519EC83CB9F0D2FA1221E8DB907FB3 /* CCIFeature.m */; };
-		F099768FF61B2C7622999F9616D00197 /* CCIBlockDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F87D5E982A05C69D98BA49ABDB72C2 /* CCIBlockDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F09F5BCFAF47DA063E381D6F55846598 /* GHComment.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8607E8912F3D17AC3F42569BC1BCC1 /* GHComment.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F539236ADA979A29D1E2FEA0E2199392 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC8F300895E39EA0DF6D6B2B5E6BCD /* XCTest.framework */; };
-		F61301B5469F6A53A5C7DCD65D5B1142 /* CCIBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B7514665939597F5B268145FA69843 /* CCIBackground.m */; };
-		F7C35527681A20708DB48E988BF0B587 /* GHTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D234CB357B6244BCFAF3C104B18B0C /* GHTableRow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FAF7746F197B6B515411937CBD445DBA /* GHScenarioDefinition_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 676078003F5317266454D0674FAB9019 /* GHScenarioDefinition_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FC4D9EF9156725F6BF0F7C3FE16046D9 /* CCIJSONDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = CA09F79B6CEAC306E5DDA2276EFBB482 /* CCIJSONDumper.m */; };
+		02DCA89F2F40C5550FAA931CC0ED230A /* CCIAroundHock.m in Sources */ = {isa = PBXBuildFile; fileRef = B18C7F51C725F9D0B861DA61BC5A9587 /* CCIAroundHock.m */; };
+		03AD578497530F2F69029A341BCCC9D3 /* GHTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D234CB357B6244BCFAF3C104B18B0C /* GHTableRow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		03C933DA6CAF48E4BE7477E3FDEB3E46 /* GHTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = B6164E4E28B63849993AD8BB343A76AC /* GHTableRow.m */; };
+		0844221C005D0920A756D67D1FCC1BB4 /* CCIArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACF55BE74F415B981E0A875D56575EC /* CCIArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0976A2C8A88D0922453A9EF6E25B6E9F /* Pods-AppleCard-AppleCardAcceptanceTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C93BC0978E8C1A28882339294BCCA4 /* Pods-AppleCard-AppleCardAcceptanceTests-dummy.m */; };
+		0BC7BBBE304E7B44C28DD25926656A7B /* GHExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C9EF1285FE879BB8349219244FBD93 /* GHExamples.m */; };
+		0DBABAE881B571F5472B69A903110BF9 /* Pods-AppleCard-AppleCardUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B36D52AA9DFF723BEE25CFA5021C5C8F /* Pods-AppleCard-AppleCardUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBF76019B4E03EDAD3930B6754497D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
+		11404AD89974ED77287D849190EA5780 /* CCIStepsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7204EF899846EE00EE8BEA9A45909CE9 /* CCIStepsManager.m */; };
+		12AFFA353C8F368BBFBCA5AAC3E52958 /* GHFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = C391A90AEB1FECA50EFA4D9013535BC8 /* GHFeature.m */; };
+		12FB87FB787C2D8DE10232C385F3796F /* GHTokenMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = AC938E7E449588A3B8AA48EA98E72674 /* GHTokenMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15F01E61AB18F26725E5330A5900A490 /* GHDataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC9D452088CE277BBDC950A6697FF4 /* GHDataTable.m */; };
+		16132ACF9FEF3B93F5F1586171D21E1B /* Pods-AppleCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC614413723C336D38E9C5239389175 /* Pods-AppleCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18D94C8BCCA3D6F90A29964962C29575 /* CCIStepsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 685D8FFD0D4285A10EEFF85E3B9F4852 /* CCIStepsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CEB1A33AE9C70AA08DBD462B6E72042 /* GHParserException.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C95069E5654BFA026EFD35CCD37CBF /* GHParserException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F4D961196E0EC602767F8FA9313DB72 /* NSObject+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B7912F4F7872D30D227324E3CC801F /* NSObject+Dictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1FF1DC5517E57B5D08BC1D0C26BED357 /* GHParser+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C13CC8FB1E44B4DEE2F38C95FA421701 /* GHParser+Extensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		217C7203CA1C8D2FD36E0B944AC7DD73 /* CCIFeaturesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FB2E7C943891F9C6F6C6CD8BE94B32 /* CCIFeaturesManager.m */; };
+		23D0DB0B9383EED410D836D730D91B74 /* GHTokenScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = CC54EEE362A2A100DFC1E037B3C0C885 /* GHTokenScanner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		247FCCF7847EC99A415AACB23DA97B30 /* GHAstNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 45738E829DF8D0DA455C565FE2003C04 /* GHAstNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		26AE72297471AE04107B3CAF92E8639A /* GHFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 697E280E1FD28ED6BFEB17AFBFE69917 /* GHFeature.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28EF61327CCEF7D56B465DDD4A20C234 /* CCIHock.h in Headers */ = {isa = PBXBuildFile; fileRef = 2471F7F15B3577FDA176017784CF02C4 /* CCIHock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		292AEAFA0A0B125A832DF9E63AA02476 /* Pods-AppleCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5646D1FA848A9E4E63467F8D6A086496 /* Pods-AppleCard-dummy.m */; };
+		2A24947727EAB37EB2DAAD9DF720F879 /* CCILocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F4421F99454E7AAEA2B99B9DC3051C /* CCILocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EACA89123960BF7D691E4680B107275 /* GherkinLanguages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5F0E2648A0225A680D9DA04D583F1A4 /* GherkinLanguages.bundle */; };
+		3174C16706271AFB14E6C72F8F3D7CFC /* GHNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D2589C9290B5A779B24901EE68A65C /* GHNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32A8431B4578A936912DAFC1170439F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C061463250766C9C05995AB8EE63E66 /* XCTest.framework */; };
+		353F4B220B3BC1AF0DB2AB57334BC0D3 /* GHComment.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AE3DD0621073C03ABE8869014DEB79 /* GHComment.m */; };
+		355F4C1E87157E9FBCF51D1276A6C817 /* GHStepArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 05438041845BA0C4FBD59B1728A9482D /* GHStepArgument.m */; };
+		3799930ABCAC19A10CDF4852F4B17CC3 /* Cucumberish.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E8062CD4AE249CA288EEEE73D9D172 /* Cucumberish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AD3D0A7D05BA7FE4F4A943D69567336 /* CCIStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 022109451555B115BDCE6721F27AF68B /* CCIStep.m */; };
+		3B8E4C4F549888DD095940613862BB1A /* CCIArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD2F3AD55B1A84CE1BE99AFBBCFA9D5 /* CCIArgument.m */; };
+		406D452B95AD87AB5E42C2CA702BC89B /* GHScenarioOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF80C343F6ECAB9CD44CDEB8725D449 /* GHScenarioOutline.m */; };
+		41118BE5A6A1D4BEDF176702B3D9161B /* CCIScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE128ADAEF4FF5386ADED07E4EE0EE2 /* CCIScenarioDefinition.m */; };
+		43119355FB84A892B319C5895F3306D8 /* CCIFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 77CA34FCDA7567156C82A185247B9E3D /* CCIFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43548AA5CED87C4881A40D87E65D1607 /* CCILocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B48B95A156243EF7CF695B587737DA /* CCILocation.m */; };
+		44B05FDE20B37FB17F21FC3CC48AFD38 /* GHStep.h in Headers */ = {isa = PBXBuildFile; fileRef = DD74E32AE1868CE3E7B17DF195556B70 /* GHStep.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		45363964F81C9BF3E5817574D9768CEE /* NSString+Formatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E7F2BA66F6757BD168F9A823437DDF3 /* NSString+Formatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4559980E1F4AA2F7D1BF7B6A4362D27D /* GHScenarioOutline.h in Headers */ = {isa = PBXBuildFile; fileRef = 703ED984A8120DC85079AD5F4802B8CB /* GHScenarioOutline.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A412CEF29DFFF8AF1F48307E932E3AD /* CCIJSONDumper.h in Headers */ = {isa = PBXBuildFile; fileRef = F0129EF6F825CF3691CC16C5B23A3CB4 /* CCIJSONDumper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4EE93391097BB247204DA44D6C3E00AA /* GHGherkinDialectProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = BB23E586522B4E86D09692861E7E728E /* GHGherkinDialectProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		502AB5DADFD803A8E180C16B6CD29E8B /* GHGherkinLanguageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AACA6B604E05A5695B6F35A90C12E12 /* GHGherkinLanguageConstants.m */; };
+		52C18569336AE9B64BEF5EFD4C2BE6AC /* gherkin-languages.json in Resources */ = {isa = PBXBuildFile; fileRef = F467425D6A55DCE5E4DC19DF5DDF8F1F /* gherkin-languages.json */; };
+		52D699E011B04A70E171660A2A96B7D1 /* GHBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 777A726A890AFCA8A2B80CDC7F466E54 /* GHBackground.m */; };
+		533700A9945AD199B43E8A52792B1655 /* CCIStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 7505D9DC744FD97173FD8C2D16836EB1 /* CCIStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5687D7AC498C3BFE793AE572D86A2876 /* GHGherkinLineSpan.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C38508C41FBEB3EA8B8BEFAC0925835 /* GHGherkinLineSpan.m */; };
+		609C94871FA4CAC93D09255ED6626A19 /* Pods-AppleCard-AppleCardAcceptanceTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E45AE71CA934E243C1A5936258EE1817 /* Pods-AppleCard-AppleCardAcceptanceTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		649AFD5B7C891B662CDB9BBE017B56CF /* GHHasTagsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0BFE213308548EFC494CE1836B99D2 /* GHHasTagsProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		64B799F380953D6B0FFD755A52AB1281 /* GHGherkinDialect.h in Headers */ = {isa = PBXBuildFile; fileRef = BA75DACD90C961E4DE0BE6E4D54C86CE /* GHGherkinDialect.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6AF44104A74482BCBA01D674E52C46D0 /* GHGherkinLanguageSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = A720BFA9C6F84BF4AE224661CF9FDDDB /* GHGherkinLanguageSetting.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6BBCEC61EA3DD0E5A0800A951CFC6935 /* GHGherkinLineProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D91A280B9CB9EA5B327C476C683AC6E4 /* GHGherkinLineProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C9FE535241AF79734B77517BE978F1E /* CCILoggingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3D420681CC54B5FB09846866A0590 /* CCILoggingManager.m */; };
+		6F385D0ADF1EC1E61D0FDBF8A590D885 /* GHTag.m in Sources */ = {isa = PBXBuildFile; fileRef = B412804B97687FF2DCA24DD4564444E1 /* GHTag.m */; };
+		701C0429F2BB1B03AE3135F7B9783AEE /* Cucumberish-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 987713458BA8B929FDD810A2FDBFBAF9 /* Cucumberish-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71040C06034C6C6FEB4EFF2DAF44F6DE /* GHScenarioDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 517BE3A48F3436354B2377C406F01892 /* GHScenarioDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72A2DA3F743376EA5D23625BA2B7825E /* CCIExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F27C95CE5C76121AAD841AECF15CA3 /* CCIExample.m */; };
+		72D1283599F85F8CC6D349D1912F3763 /* GHParserException.m in Sources */ = {isa = PBXBuildFile; fileRef = 446DE175BE52840388C59F46A1260572 /* GHParserException.m */; };
+		72F214D2B10582EB4D573F34F2C65E66 /* GHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B6893399D03CFC00FA2D6D26E16E43 /* GHNode.m */; };
+		73BEC57AABCAA820E818AE505F353916 /* GHLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 820EDCCA0C4083A08EED5C3F30D04D97 /* GHLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		74E807B2B8BD9B36485D43D6C3588D49 /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB57CE3D75B3C15365AE7542E593C61 /* NSObject+Dictionary.m */; };
+		7666D9DC70826727D403CE3D8A590CA8 /* Pods-AppleCard-AppleCardUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6564172666143C8A74A8357CB6209B9B /* Pods-AppleCard-AppleCardUITests-dummy.m */; };
+		7684573EFC0C551439570EFE8D6DA093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
+		78DE74E3713FC73E81788F9640A5B2CC /* GHScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E99D40A4578E31F0153B75C7580186E /* GHScenarioDefinition.m */; };
+		7911248FAC5CA3E73C8AED0E0007F3C3 /* CCILoggingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A00C85ACE1F33655A510D9BFF530AEA /* CCILoggingManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		79C7851B2C47E3E87E33679A739C2DAC /* GHGherkinLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 338A66279D8E59DA7E43572A160886B4 /* GHGherkinLine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C7A4F08CFED7317468ED2931065692C /* CCIFeaturesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 01ECCB9B255A0FD148502F54094633EF /* CCIFeaturesManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D07FC075EC4AC6DCBC8A4E957E9AF58 /* GHDocString.h in Headers */ = {isa = PBXBuildFile; fileRef = A14A0427F1A9DA820436C4FD65F84AE8 /* GHDocString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E5509641F03E7F1033953827274172E /* CCIBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3AAA00DD10989A6409967C7C6294C4 /* CCIBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80DD897C43777495F307291943F5D8F7 /* GHParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE0C01786B8EB7B4C4C72DDB6A89225 /* GHParser.m */; };
+		8164E479046774C308DE3ABD93566A81 /* GHStepArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 8189575E6A8E4A136D84D8BFCF6739A9 /* GHStepArgument.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		869CD4243B0775334FCA2434075FB58E /* GHToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 4452573009427BEF88468CB48CC009ED /* GHToken.m */; };
+		889A6769106C5815675809EF188CD5D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
+		8976DA217443CB7A45EEC6384636815A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
+		8F161B4A667378128950B332B8EEE4CB /* Pods-AppleCardTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EB2E62803233FC079259C1CAA9CB48 /* Pods-AppleCardTests-dummy.m */; };
+		8FD53E22971BB8602FFEA0484B5CD8B7 /* CCIExample.h in Headers */ = {isa = PBXBuildFile; fileRef = B1CA7E02AD3124457A541DC08D8101B5 /* CCIExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		926C8EE27DD06EC591B1444EAD20C981 /* NSArray+Hashes.h in Headers */ = {isa = PBXBuildFile; fileRef = C3EB32214963AF75DC1E519ACB1FC41B /* NSArray+Hashes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		927858F1BC0FB54D8AFFA2FD426EF2A5 /* GHGherkinDialectProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AEF4768441890C53D095B480625EB4 /* GHGherkinDialectProvider.m */; };
+		94789579B818554DD69B5BAE0513BBB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
+		949F57C12B892AF9FE8AEB8317895821 /* GHScenario.m in Sources */ = {isa = PBXBuildFile; fileRef = 650FA38E25004B59E15E412DF3F30D05 /* GHScenario.m */; };
+		94FADA471DEFE688FD906BE85A84B77B /* GHGherkinDialect.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D1791ADA76551A71FE98BB112A4CB8 /* GHGherkinDialect.m */; };
+		9C908E8F4F9C4FCC8391DFCBEAEF7871 /* GHHasStepsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD31784EF8F3300FE03816CF389C01B /* GHHasStepsProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F2E38A1B2181C96D71675469197EF64 /* GHParser+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9E8196C3CE38EE589CFED578A77504 /* GHParser+Extensions.m */; };
+		A1C4D8D7CAEB464EFC7C6C03E39452C0 /* GHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3268A05779223E5DD06DB0099886DEAD /* GHLocation.m */; };
+		A34E2C046A1E496875F85E0BA5ABF56D /* CCIJSONDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = CA09F79B6CEAC306E5DDA2276EFBB482 /* CCIJSONDumper.m */; };
+		A37F0DDBEDF075EB6A1FEF7457A3FE5A /* GHTokenScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = CF505FD5D01F2AEA36391AF8D042BE12 /* GHTokenScanner.m */; };
+		A42418CF2B92882FC6122ABD4A7057A2 /* GHTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBC85E1B4594527088FCB8D3986742E /* GHTableCell.m */; };
+		A85C079FDF5F0F400A9833E25B0553B0 /* GHScenarioDefinition_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 676078003F5317266454D0674FAB9019 /* GHScenarioDefinition_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA4276268F57DC4E0AA41606D0A871BD /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = B0656C19F8637D18EC1790747FF974A0 /* NSString+Trim.m */; };
+		AC781619E16F086B1EB8D7E21B0425A7 /* GHTokenMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F1049291AAD49E48CAD00F407D01F822 /* GHTokenMatcher.m */; };
+		ACF15625CE5290B224F43A78BCB898AD /* CCIScenarioDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDBECAEDBD9ABB9FFF111533AEB70F8 /* CCIScenarioDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFE8056BC5DC27A28CFAD3F73276E7DA /* GHAstBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFFC2ABD22AE6D3A7AF42B28A5ECCDF /* GHAstBuilder.m */; };
+		B3797089D897AF49E4C9F90260677427 /* CCIBlockDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F87D5E982A05C69D98BA49ABDB72C2 /* CCIBlockDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E52D645ECB7D98D603D3252875EF6B /* GHDocString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F8E84553EFBA9FF120A824878B490 /* GHDocString.m */; };
+		B7C0C020DECB0C0C7592A5E5530A165E /* GHHasLocationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9CCA480FEFD20968E0C89CC76F4517 /* GHHasLocationProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA2977577BC3A5896F899AF75B335815 /* GHTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A2F509E2FB8A7CAF714B0253C1F7C3 /* GHTableCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA30E01A32666CDEB3ADB741BE382B8E /* Cucumberish-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9887CBFCD4CAF9BCFAD4EB1C984219BB /* Cucumberish-dummy.m */; };
+		BCE15129EA608D9962959E20A4904093 /* GHScenario.h in Headers */ = {isa = PBXBuildFile; fileRef = 288FE49C1B8EA98AA37D68D0651B5605 /* GHScenario.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C301B21873D5A6A8C32BF2D27804E718 /* GHHasDescriptionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C5D5FA59DE811CD3A43AA43AD61C55B /* GHHasDescriptionProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C44E1A9162F4E04BAB3AFE86C8171747 /* CCIStepDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB252731837BBC285601350889D0045 /* CCIStepDefinition.m */; };
+		C5B870BA362589C44C1291BC56FEF2EC /* GHComment.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8607E8912F3D17AC3F42569BC1BCC1 /* GHComment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7663108A065D2B435CD3B68F9CC64FC /* NSArray+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B2F95F4AA51F08C8B3E857A619A93D /* NSArray+Hashes.m */; };
+		C76D1368BB3699E9AE1763D8C5898275 /* GHToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BEEB8FBDBE0941DA9D5D355AD2DD989 /* GHToken.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB07D44BE43CD9E0B2C70A0D402665A4 /* GHHasRowsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 93697DF73EC495CA7A68F01FFDA64DBA /* GHHasRowsProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD2602F890748BC5CCC3B112D57E9391 /* GHStep.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE5E6B1F929B0CA8C8F28C4A350529A /* GHStep.m */; };
+		CFBB3A1B87E730EB08929FD794AC3BFF /* GHGherkinLine.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF60BAF0C345636AFFAE3664F7CF28A /* GHGherkinLine.m */; };
+		CFF6020D15883426CB24033C697CCB7E /* CCIHock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2DD824A68CF37B6AC072C86FAF8BBB /* CCIHock.m */; };
+		D35651A010A146A0D3FA6EBF89F09B01 /* CCIStepDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2BE69579334068619C3703F7C8BE08 /* CCIStepDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3D0871F0FC7C6C978AD8776F4334698 /* Pods-AppleCardTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C14F865D22F084579A5D2B5070E08A6D /* Pods-AppleCardTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5107FF99C759D9337043EDE62969C63 /* CCIFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = B5519EC83CB9F0D2FA1221E8DB907FB3 /* CCIFeature.m */; };
+		D8814004C71722EF469358655E1320DD /* GHGherkinLineSpan.h in Headers */ = {isa = PBXBuildFile; fileRef = 324CC0CD6977474E7AB49AE4E5535611 /* GHGherkinLineSpan.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8E10B0F394448D7236BAB5A32845DA4 /* CCIAroundHock.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB8B40F2D272317894C2848C6B77BD5 /* CCIAroundHock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DADFE4EE01E418D1DB86126877A36A76 /* GHBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = F87DF4AB53AA5A5A6BEA40AD32768746 /* GHBackground.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD403CC400071C872DAB8CAC81AE3FAD /* CCIBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B7514665939597F5B268145FA69843 /* CCIBackground.m */; };
+		DE41F2943CAB4908BDAE37E2AEE724CE /* NSString+Trim.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A031D86DA808D39D133C4E94348B99C /* NSString+Trim.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5475CD8A76656BDC4419373CBD67DC7 /* GHGherkinLanguageConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 277DAAF94C60860CA39E492820F1214F /* GHGherkinLanguageConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9BE7B731A8FA506064981B593A17FFC /* GHTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E7740A6EFFF16A909C246C8C8FED1EB /* GHTag.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9D269CD946EB0BF5FB239CE19907F33 /* GHAstBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A0A0C813FEE658E6D5C1EAD56BEEE6 /* GHAstBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EBD89197E9E127070E6333911203C687 /* GHGherkinDialectProviderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 95598AC0CF76C664F2030F4963BFDB04 /* GHGherkinDialectProviderProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED9357A06D6B58D50C51BE42850715B1 /* GHParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3C0E3FC4E110C325C2133AEF2A9F59 /* GHParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF7E68A4C13139F16F00EF485ADE871C /* GHGherkinLanguageSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B4E9AF105A3F457B7F5D3C8395FB31 /* GHGherkinLanguageSetting.m */; };
+		F42FCF7A329DAE5DA8A374D8957041D8 /* Cucumberish.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B79EA3B08E7504A6442165F640E97D /* Cucumberish.m */; };
+		F46092019E16F8BA2C03B292CD99E01C /* NSString+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E0F288621ECD7770107673B89A733 /* NSString+Formatter.m */; };
+		FAAD472047CBB6A23B3CBDD0372999C7 /* GHExamples.h in Headers */ = {isa = PBXBuildFile; fileRef = 68673BE13B2F9A5D0D609B3ACFEB832A /* GHExamples.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FABC5386CB25C8F45917377AC88AED72 /* GHAstNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2813AFFCB1F8FE231EDC7EBC510B8644 /* GHAstNode.m */; };
+		FF269F9EEDA7FD50D068229F39D05E8D /* GHDataTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 64732C20DE3C29543B16DBCD2EA81EE4 /* GHDataTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2B9FD9AD34CBC309CD62C30CFD667824 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E9023FEC10B3ABBA3DA6D590AE39248B;
-			remoteInfo = Cucumberish;
-		};
-		858840142F6CC070BD4F43E515D15D70 /* PBXContainerItemProxy */ = {
+		17BE4AD2C921561B4BD5364B5393701F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 335F5967911C31A0CA65408F5A0432F9;
 			remoteInfo = "Pods-AppleCard";
 		};
-		87EDC7D991A0E7F9583133C428F2223A /* PBXContainerItemProxy */ = {
+		4A1B4CBD887A36D58A1DD2DE298874DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6B9476F01BF5369F5A1F27E14B49901D;
 			remoteInfo = "Cucumberish-GherkinLanguages";
 		};
-		E4FE2510EA44793A5EE32E33FE74DA83 /* PBXContainerItemProxy */ = {
+		857302214DFDA4FC6C0CD9F549324078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9023FEC10B3ABBA3DA6D590AE39248B;
+			remoteInfo = Cucumberish;
+		};
+		E0B35AE11809D3668072119971798397 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -166,9 +166,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0090BA58432DE6A6B2A8DDE1C9ACE698 /* Pods-AppleCard */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppleCard"; path = Pods_AppleCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0090BA58432DE6A6B2A8DDE1C9ACE698 /* Pods_AppleCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppleCard.framework; path = "Pods-AppleCard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01ECCB9B255A0FD148502F54094633EF /* CCIFeaturesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIFeaturesManager.h; path = Cucumberish/Core/Managers/CCIFeaturesManager.h; sourceTree = "<group>"; };
 		022109451555B115BDCE6721F27AF68B /* CCIStep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIStep.m; path = Cucumberish/Core/Models/CCIStep.m; sourceTree = "<group>"; };
+		033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		05438041845BA0C4FBD59B1728A9482D /* GHStepArgument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHStepArgument.m; path = Cucumberish/Dependencies/Gherkin/GHStepArgument.m; sourceTree = "<group>"; };
 		07C6FC362ED979FDEB44A96A7A376C4D /* Pods-AppleCardTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppleCardTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		08C9EF1285FE879BB8349219244FBD93 /* GHExamples.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHExamples.m; path = Cucumberish/Dependencies/Gherkin/GHExamples.m; sourceTree = "<group>"; };
@@ -191,6 +192,7 @@
 		288FE49C1B8EA98AA37D68D0651B5605 /* GHScenario.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHScenario.h; path = Cucumberish/Dependencies/Gherkin/GHScenario.h; sourceTree = "<group>"; };
 		2A00C85ACE1F33655A510D9BFF530AEA /* CCILoggingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCILoggingManager.h; path = Cucumberish/Core/Managers/CCILoggingManager.h; sourceTree = "<group>"; };
 		2A3B0F424E882926700006BA18B8AD28 /* Pods-AppleCardTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppleCardTests.modulemap"; sourceTree = "<group>"; };
+		2C061463250766C9C05995AB8EE63E66 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2DD31784EF8F3300FE03816CF389C01B /* GHHasStepsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHHasStepsProtocol.h; path = Cucumberish/Dependencies/Gherkin/GHHasStepsProtocol.h; sourceTree = "<group>"; };
 		2FB8B40F2D272317894C2848C6B77BD5 /* CCIAroundHock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIAroundHock.h; path = Cucumberish/Core/Models/CCIAroundHock.h; sourceTree = "<group>"; };
 		324CC0CD6977474E7AB49AE4E5535611 /* GHGherkinLineSpan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinLineSpan.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinLineSpan.h; sourceTree = "<group>"; };
@@ -219,7 +221,6 @@
 		5646D1FA848A9E4E63467F8D6A086496 /* Pods-AppleCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleCard-dummy.m"; sourceTree = "<group>"; };
 		5C1211488DBC0C59E21217129AEFE380 /* Cucumberish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cucumberish.debug.xcconfig; sourceTree = "<group>"; };
 		5CDD3469F5907607F39392858CC16C23 /* Cucumberish-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cucumberish-prefix.pch"; sourceTree = "<group>"; };
-		5EBC8F300895E39EA0DF6D6B2B5E6BCD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5ED6EC1A2BDF3D03ACBDBCF67EAAFAF4 /* Pods-AppleCard-AppleCardAcceptanceTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppleCard-AppleCardAcceptanceTests-Info.plist"; sourceTree = "<group>"; };
 		642EB2F784FE9452103B50102BF32103 /* Cucumberish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cucumberish.release.xcconfig; sourceTree = "<group>"; };
 		64732C20DE3C29543B16DBCD2EA81EE4 /* GHDataTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHDataTable.h; path = Cucumberish/Dependencies/Gherkin/GHDataTable.h; sourceTree = "<group>"; };
@@ -267,11 +268,11 @@
 		A0A8C4BD98B1C42F7B612B89DD9BF614 /* Pods-AppleCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleCardTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A14A0427F1A9DA820436C4FD65F84AE8 /* GHDocString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHDocString.h; path = Cucumberish/Dependencies/Gherkin/GHDocString.h; sourceTree = "<group>"; };
 		A1C93BC0978E8C1A28882339294BCCA4 /* Pods-AppleCard-AppleCardAcceptanceTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleCard-AppleCardAcceptanceTests-dummy.m"; sourceTree = "<group>"; };
-		A576B2D300F9D119B20207C2C1F2A5F2 /* Pods-AppleCard-AppleCardAcceptanceTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppleCard-AppleCardAcceptanceTests"; path = Pods_AppleCard_AppleCardAcceptanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A576B2D300F9D119B20207C2C1F2A5F2 /* Pods_AppleCard_AppleCardAcceptanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppleCard_AppleCardAcceptanceTests.framework; path = "Pods-AppleCard-AppleCardAcceptanceTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A4587EB9586B27A1660736F47E47D0 /* Pods-AppleCard-AppleCardAcceptanceTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppleCard-AppleCardAcceptanceTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A720BFA9C6F84BF4AE224661CF9FDDDB /* GHGherkinLanguageSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinLanguageSetting.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinLanguageSetting.h; sourceTree = "<group>"; };
 		ABF80C343F6ECAB9CD44CDEB8725D449 /* GHScenarioOutline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHScenarioOutline.m; path = Cucumberish/Dependencies/Gherkin/GHScenarioOutline.m; sourceTree = "<group>"; };
-		AC5F82E3FCB0E5C704EF5CB72E2DABA0 /* Pods-AppleCardTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppleCardTests"; path = Pods_AppleCardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5F82E3FCB0E5C704EF5CB72E2DABA0 /* Pods_AppleCardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppleCardTests.framework; path = "Pods-AppleCardTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC938E7E449588A3B8AA48EA98E72674 /* GHTokenMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHTokenMatcher.h; path = Cucumberish/Dependencies/Gherkin/GHTokenMatcher.h; sourceTree = "<group>"; };
 		AFE5E6B1F929B0CA8C8F28C4A350529A /* GHStep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHStep.m; path = Cucumberish/Dependencies/Gherkin/GHStep.m; sourceTree = "<group>"; };
 		B0656C19F8637D18EC1790747FF974A0 /* NSString+Trim.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Trim.m"; path = "Cucumberish/Dependencies/Gherkin/NSString+Trim.m"; sourceTree = "<group>"; };
@@ -297,10 +298,9 @@
 		C3EB32214963AF75DC1E519ACB1FC41B /* NSArray+Hashes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Hashes.h"; path = "Cucumberish/Utils/NSArray+Hashes.h"; sourceTree = "<group>"; };
 		C635B9DD6C7796DA964EDC08AE26143D /* Pods-AppleCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleCard.release.xcconfig"; sourceTree = "<group>"; };
 		C88FFEA95F3F7FFF82985F7494EB025C /* ResourceBundle-GherkinLanguages-Cucumberish-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GherkinLanguages-Cucumberish-Info.plist"; sourceTree = "<group>"; };
-		C9510BC643350C8A72076078C9C0DAAD /* Cucumberish */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cucumberish; path = Cucumberish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9510BC643350C8A72076078C9C0DAAD /* Cucumberish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cucumberish.framework; path = Cucumberish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F87D5E982A05C69D98BA49ABDB72C2 /* CCIBlockDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIBlockDefinitions.h; path = Cucumberish/Core/CCIBlockDefinitions.h; sourceTree = "<group>"; };
 		CA09F79B6CEAC306E5DDA2276EFBB482 /* CCIJSONDumper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIJSONDumper.m; path = Cucumberish/Core/Models/CCIJSONDumper.m; sourceTree = "<group>"; };
-		CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC54EEE362A2A100DFC1E037B3C0C885 /* GHTokenScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHTokenScanner.h; path = Cucumberish/Dependencies/Gherkin/GHTokenScanner.h; sourceTree = "<group>"; };
 		CF505FD5D01F2AEA36391AF8D042BE12 /* GHTokenScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHTokenScanner.m; path = Cucumberish/Dependencies/Gherkin/GHTokenScanner.m; sourceTree = "<group>"; };
 		D5A0A0C813FEE658E6D5C1EAD56BEEE6 /* GHAstBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHAstBuilder.h; path = Cucumberish/Dependencies/Gherkin/GHAstBuilder.h; sourceTree = "<group>"; };
@@ -320,59 +320,59 @@
 		F3B6893399D03CFC00FA2D6D26E16E43 /* GHNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHNode.m; path = Cucumberish/Dependencies/Gherkin/GHNode.m; sourceTree = "<group>"; };
 		F467425D6A55DCE5E4DC19DF5DDF8F1F /* gherkin-languages.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "gherkin-languages.json"; path = "Cucumberish/Dependencies/Gherkin/gherkin-languages.json"; sourceTree = "<group>"; };
 		F4AE3DD0621073C03ABE8869014DEB79 /* GHComment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHComment.m; path = Cucumberish/Dependencies/Gherkin/GHComment.m; sourceTree = "<group>"; };
-		F5F0E2648A0225A680D9DA04D583F1A4 /* Cucumberish-GherkinLanguages */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Cucumberish-GherkinLanguages"; path = GherkinLanguages.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F0E2648A0225A680D9DA04D583F1A4 /* GherkinLanguages.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GherkinLanguages.bundle; path = "Cucumberish-GherkinLanguages.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87DF4AB53AA5A5A6BEA40AD32768746 /* GHBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHBackground.h; path = Cucumberish/Dependencies/Gherkin/GHBackground.h; sourceTree = "<group>"; };
-		F9671AFC89682F91CB1335925F7AB512 /* Pods-AppleCard-AppleCardUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppleCard-AppleCardUITests"; path = Pods_AppleCard_AppleCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9671AFC89682F91CB1335925F7AB512 /* Pods_AppleCard_AppleCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppleCard_AppleCardUITests.framework; path = "Pods-AppleCard-AppleCardUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB6E856B1FFF953BF0EE46099DC703B /* Pods-AppleCard-AppleCardAcceptanceTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppleCard-AppleCardAcceptanceTests-frameworks.sh"; sourceTree = "<group>"; };
 		FEB252731837BBC285601350889D0045 /* CCIStepDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIStepDefinition.m; path = Cucumberish/Core/Models/CCIStepDefinition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C7385A6F1B60F06F73F1A75B838624B /* Frameworks */ = {
+		3E16786EF7D762961D26C10D98AE1396 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31422977362E9B33738E6B4D0F3450B2 /* Foundation.framework in Frameworks */,
+				0DBF76019B4E03EDAD3930B6754497D0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27C395FBC817D2034BCA2F208C1F4AA2 /* Frameworks */ = {
+		4530CB7A680780BFD2D2A972377264AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889A6769106C5815675809EF188CD5D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5374F8466A49303B4271A24C19546C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7684573EFC0C551439570EFE8D6DA093 /* Foundation.framework in Frameworks */,
+				32A8431B4578A936912DAFC1170439F8 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B27B6920851AFD5787B5AC3DA69D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94789579B818554DD69B5BAE0513BBB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC476D9E5F9E245488E22F472111748 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89E6EA7BFFEDFB260CA4A783A015CF81 /* Frameworks */ = {
+		B34F5BDE0D226EEB08D35A91D92C5621 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9E935F1BA484EE8E3F0F99ABBD34CD2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B771E86D6DCD44B24A9F4AC9229DBA8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				902038854C5EBE9E343DED51FAAA7910 /* Foundation.framework in Frameworks */,
-				F539236ADA979A29D1E2FEA0E2199392 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D541641D361628310F60898FEEF74C8F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0BDC418ADC122EA04DB0C0069F973E9B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E7E1C11ED3D4CC49F3AD7D1287073390 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A478CE399F4DA31027885C24CE0AEB2 /* Foundation.framework in Frameworks */,
+				8976DA217443CB7A45EEC6384636815A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +382,7 @@
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				974814B39C0012DECD183BBB91B32103 /* iOS */,
+				3E285571EF144F8DACCF451128B351DD /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -428,17 +428,13 @@
 			path = "Target Support Files/Pods-AppleCard-AppleCardUITests";
 			sourceTree = "<group>";
 		};
-		4491145F5617FFDF5F5787D46CA42EA2 /* Products */ = {
+		3E285571EF144F8DACCF451128B351DD /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C9510BC643350C8A72076078C9C0DAAD /* Cucumberish */,
-				F5F0E2648A0225A680D9DA04D583F1A4 /* Cucumberish-GherkinLanguages */,
-				0090BA58432DE6A6B2A8DDE1C9ACE698 /* Pods-AppleCard */,
-				A576B2D300F9D119B20207C2C1F2A5F2 /* Pods-AppleCard-AppleCardAcceptanceTests */,
-				F9671AFC89682F91CB1335925F7AB512 /* Pods-AppleCard-AppleCardUITests */,
-				AC5F82E3FCB0E5C704EF5CB72E2DABA0 /* Pods-AppleCardTests */,
+				033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */,
+				2C061463250766C9C05995AB8EE63E66 /* XCTest.framework */,
 			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		74204192A56439218053D33394DFD1C6 /* Pods-AppleCard */ = {
@@ -471,15 +467,6 @@
 			);
 			name = "Pods-AppleCardTests";
 			path = "Target Support Files/Pods-AppleCardTests";
-			sourceTree = "<group>";
-		};
-		974814B39C0012DECD183BBB91B32103 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */,
-				5EBC8F300895E39EA0DF6D6B2B5E6BCD /* XCTest.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		9D1A62CD4D594268D95365266049236F /* Cucumberish */ = {
@@ -599,6 +586,19 @@
 			path = Cucumberish;
 			sourceTree = "<group>";
 		};
+		B3D9B77A481C5C422CAB2E52D9864EAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9510BC643350C8A72076078C9C0DAAD /* Cucumberish.framework */,
+				F5F0E2648A0225A680D9DA04D583F1A4 /* GherkinLanguages.bundle */,
+				0090BA58432DE6A6B2A8DDE1C9ACE698 /* Pods_AppleCard.framework */,
+				A576B2D300F9D119B20207C2C1F2A5F2 /* Pods_AppleCard_AppleCardAcceptanceTests.framework */,
+				F9671AFC89682F91CB1335925F7AB512 /* Pods_AppleCard_AppleCardUITests.framework */,
+				AC5F82E3FCB0E5C704EF5CB72E2DABA0 /* Pods_AppleCardTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B765861DF3789EE3C76E45AE7F082F80 /* Pods-AppleCard-AppleCardAcceptanceTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -622,7 +622,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				E67E91E70C2F7D20840B43418485E58E /* Pods */,
-				4491145F5617FFDF5F5787D46CA42EA2 /* Products */,
+				B3D9B77A481C5C422CAB2E52D9864EAD /* Products */,
 				E139625550F89F65D68A9501808CDAB6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -649,101 +649,101 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		65E8CC1678315E5E4B02E6776F486544 /* Headers */ = {
+		0117023EDBDD7D01028F43CFAC769B5D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDAB7356A14AA2C93D2936FEADCFA88D /* CCIArgument.h in Headers */,
-				85C1A88861A0FE200131C373CD290F40 /* CCIAroundHock.h in Headers */,
-				83F3490D903DA778B68955F643293C8F /* CCIBackground.h in Headers */,
-				F099768FF61B2C7622999F9616D00197 /* CCIBlockDefinitions.h in Headers */,
-				4BD1F25725BD4F9BCA52EBD9D4AFD294 /* CCIExample.h in Headers */,
-				775A076D4CB12CAB621387EA921D2592 /* CCIFeature.h in Headers */,
-				20FB8713FC2DB3A4A009CE1542C09760 /* CCIFeaturesManager.h in Headers */,
-				2A6ADD58B71819333DD4F948732D279A /* CCIHock.h in Headers */,
-				0EDB48F69E4072FE796EE7483D4112BE /* CCIJSONDumper.h in Headers */,
-				7DA1B5D5A39F3220EAF5DEABAF4665A8 /* CCILocation.h in Headers */,
-				B3FC83C43A6F092E4A10641826E7D8C2 /* CCILoggingManager.h in Headers */,
-				345E30979B75C863BAC7712B3DC7F47E /* CCIScenarioDefinition.h in Headers */,
-				B5BF57AEF75FD3F345B4B1149A099346 /* CCIStep.h in Headers */,
-				296ACD887FCB0B9A07F62F9CA5D43671 /* CCIStepDefinition.h in Headers */,
-				A345C8EF58BEBB5C1C540CBAFBE6C009 /* CCIStepsManager.h in Headers */,
-				C9D196C23972A19A38A0CF6DF5857C49 /* Cucumberish.h in Headers */,
-				C3F3DB1824830C27009DFDF45224D3A5 /* Cucumberish-umbrella.h in Headers */,
-				E704A5C0C419700095477325642D0830 /* GHAstBuilder.h in Headers */,
-				1749C2BDA20C89E23776432F3F33529C /* GHAstNode.h in Headers */,
-				12F8BBA4FD338CC422E7C6871EA1B144 /* GHBackground.h in Headers */,
-				F09F5BCFAF47DA063E381D6F55846598 /* GHComment.h in Headers */,
-				04E6FB7D36F211C6B9D487E9BBF63E4F /* GHDataTable.h in Headers */,
-				A1CB41EE7F5CFB93D40BAA292CA1DCFF /* GHDocString.h in Headers */,
-				46BDE1399765760BC0A5417D3513D50F /* GHExamples.h in Headers */,
-				CA0E58DEB65B736FAC9CA5C45556B7ED /* GHFeature.h in Headers */,
-				C4B426233818A5781EE39411AF342B1D /* GHGherkinDialect.h in Headers */,
-				2F62604508A73DD2929227AA0ED92C15 /* GHGherkinDialectProvider.h in Headers */,
-				43F39D826DA29467787845B4F44A10A7 /* GHGherkinDialectProviderProtocol.h in Headers */,
-				44DF3DAB87B09A1B43911999235C13E0 /* GHGherkinLanguageConstants.h in Headers */,
-				BF2744A317CBFB89FF53E617A12BEC11 /* GHGherkinLanguageSetting.h in Headers */,
-				3F7B14F0BED271305714387601ADA0F0 /* GHGherkinLine.h in Headers */,
-				9688561AC72EAEFBB016386BF941E26C /* GHGherkinLineProtocol.h in Headers */,
-				0E92E235F044AEA4A56EFAE287FC12C7 /* GHGherkinLineSpan.h in Headers */,
-				92C1F4A37A0E5DB1B4EDB5FCC8D39D01 /* GHHasDescriptionProtocol.h in Headers */,
-				6FDD0E5F5CD412269E079A5C6BBDE40F /* GHHasLocationProtocol.h in Headers */,
-				C8E2B660CAFE2A539C130570099E13C8 /* GHHasRowsProtocol.h in Headers */,
-				6E4221A971A167E9DF2AD6B1DAFF01F8 /* GHHasStepsProtocol.h in Headers */,
-				589F8258239D07F0A9606FA288EF6701 /* GHHasTagsProtocol.h in Headers */,
-				0947792814EDB71FE4F1E643EE596B5D /* GHLocation.h in Headers */,
-				E87ECD01B8A7697B6C492BEEB4BFE512 /* GHNode.h in Headers */,
-				55C2082E233D91CA59515E661DE9DE3A /* GHParser.h in Headers */,
-				E9973F07C2CD37069C7406A58B849A21 /* GHParser+Extensions.h in Headers */,
-				28827E10FF1D3031313359A39531FAB5 /* GHParserException.h in Headers */,
-				8B39BD48ADCE63DA227CFA31F06AF86C /* GHScenario.h in Headers */,
-				102B140361765DC71B096F90ECFE96A3 /* GHScenarioDefinition.h in Headers */,
-				FAF7746F197B6B515411937CBD445DBA /* GHScenarioDefinition_Private.h in Headers */,
-				BC7BC4B17182CDCD563F837AA140B4B8 /* GHScenarioOutline.h in Headers */,
-				C2EB26B651228E1BCE61A88EEEE76F3F /* GHStep.h in Headers */,
-				30DB2B0E28C9F39EAE3ADC5D4F493080 /* GHStepArgument.h in Headers */,
-				7D0FE5D8AA5556348E6D6623EAE793C6 /* GHTableCell.h in Headers */,
-				F7C35527681A20708DB48E988BF0B587 /* GHTableRow.h in Headers */,
-				2E2C7BD79F5B2CA3579252733E53B35D /* GHTag.h in Headers */,
-				6F012F75F8071B807A4E971A936080DB /* GHToken.h in Headers */,
-				E5C50F5371D79E60832452AF505B4807 /* GHTokenMatcher.h in Headers */,
-				36EB55EF354CE2C81A1B24E87B9597D0 /* GHTokenScanner.h in Headers */,
-				A3CBFB2F26915C84F648C4EB460AA363 /* NSArray+Hashes.h in Headers */,
-				D373DD80EE74193BEFB7F9E81A85050D /* NSObject+Dictionary.h in Headers */,
-				B975AE376CAB94291385DD1D2FB13A2E /* NSString+Formatter.h in Headers */,
-				C85F57E600A85033809D5C81B9231544 /* NSString+Trim.h in Headers */,
+				16132ACF9FEF3B93F5F1586171D21E1B /* Pods-AppleCard-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C2DA6DFD81A791F18DC7E7D732205B3 /* Headers */ = {
+		1910B3A74DCA9748127649BF59D833DD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97797EA7C38C4D5F71C9FFBAAFF25D80 /* Pods-AppleCard-umbrella.h in Headers */,
+				0844221C005D0920A756D67D1FCC1BB4 /* CCIArgument.h in Headers */,
+				D8E10B0F394448D7236BAB5A32845DA4 /* CCIAroundHock.h in Headers */,
+				7E5509641F03E7F1033953827274172E /* CCIBackground.h in Headers */,
+				B3797089D897AF49E4C9F90260677427 /* CCIBlockDefinitions.h in Headers */,
+				8FD53E22971BB8602FFEA0484B5CD8B7 /* CCIExample.h in Headers */,
+				43119355FB84A892B319C5895F3306D8 /* CCIFeature.h in Headers */,
+				7C7A4F08CFED7317468ED2931065692C /* CCIFeaturesManager.h in Headers */,
+				28EF61327CCEF7D56B465DDD4A20C234 /* CCIHock.h in Headers */,
+				4A412CEF29DFFF8AF1F48307E932E3AD /* CCIJSONDumper.h in Headers */,
+				2A24947727EAB37EB2DAAD9DF720F879 /* CCILocation.h in Headers */,
+				7911248FAC5CA3E73C8AED0E0007F3C3 /* CCILoggingManager.h in Headers */,
+				ACF15625CE5290B224F43A78BCB898AD /* CCIScenarioDefinition.h in Headers */,
+				533700A9945AD199B43E8A52792B1655 /* CCIStep.h in Headers */,
+				D35651A010A146A0D3FA6EBF89F09B01 /* CCIStepDefinition.h in Headers */,
+				18D94C8BCCA3D6F90A29964962C29575 /* CCIStepsManager.h in Headers */,
+				701C0429F2BB1B03AE3135F7B9783AEE /* Cucumberish-umbrella.h in Headers */,
+				3799930ABCAC19A10CDF4852F4B17CC3 /* Cucumberish.h in Headers */,
+				E9D269CD946EB0BF5FB239CE19907F33 /* GHAstBuilder.h in Headers */,
+				247FCCF7847EC99A415AACB23DA97B30 /* GHAstNode.h in Headers */,
+				DADFE4EE01E418D1DB86126877A36A76 /* GHBackground.h in Headers */,
+				C5B870BA362589C44C1291BC56FEF2EC /* GHComment.h in Headers */,
+				FF269F9EEDA7FD50D068229F39D05E8D /* GHDataTable.h in Headers */,
+				7D07FC075EC4AC6DCBC8A4E957E9AF58 /* GHDocString.h in Headers */,
+				FAAD472047CBB6A23B3CBDD0372999C7 /* GHExamples.h in Headers */,
+				26AE72297471AE04107B3CAF92E8639A /* GHFeature.h in Headers */,
+				64B799F380953D6B0FFD755A52AB1281 /* GHGherkinDialect.h in Headers */,
+				4EE93391097BB247204DA44D6C3E00AA /* GHGherkinDialectProvider.h in Headers */,
+				EBD89197E9E127070E6333911203C687 /* GHGherkinDialectProviderProtocol.h in Headers */,
+				E5475CD8A76656BDC4419373CBD67DC7 /* GHGherkinLanguageConstants.h in Headers */,
+				6AF44104A74482BCBA01D674E52C46D0 /* GHGherkinLanguageSetting.h in Headers */,
+				79C7851B2C47E3E87E33679A739C2DAC /* GHGherkinLine.h in Headers */,
+				6BBCEC61EA3DD0E5A0800A951CFC6935 /* GHGherkinLineProtocol.h in Headers */,
+				D8814004C71722EF469358655E1320DD /* GHGherkinLineSpan.h in Headers */,
+				C301B21873D5A6A8C32BF2D27804E718 /* GHHasDescriptionProtocol.h in Headers */,
+				B7C0C020DECB0C0C7592A5E5530A165E /* GHHasLocationProtocol.h in Headers */,
+				CB07D44BE43CD9E0B2C70A0D402665A4 /* GHHasRowsProtocol.h in Headers */,
+				9C908E8F4F9C4FCC8391DFCBEAEF7871 /* GHHasStepsProtocol.h in Headers */,
+				649AFD5B7C891B662CDB9BBE017B56CF /* GHHasTagsProtocol.h in Headers */,
+				73BEC57AABCAA820E818AE505F353916 /* GHLocation.h in Headers */,
+				3174C16706271AFB14E6C72F8F3D7CFC /* GHNode.h in Headers */,
+				1FF1DC5517E57B5D08BC1D0C26BED357 /* GHParser+Extensions.h in Headers */,
+				ED9357A06D6B58D50C51BE42850715B1 /* GHParser.h in Headers */,
+				1CEB1A33AE9C70AA08DBD462B6E72042 /* GHParserException.h in Headers */,
+				BCE15129EA608D9962959E20A4904093 /* GHScenario.h in Headers */,
+				71040C06034C6C6FEB4EFF2DAF44F6DE /* GHScenarioDefinition.h in Headers */,
+				A85C079FDF5F0F400A9833E25B0553B0 /* GHScenarioDefinition_Private.h in Headers */,
+				4559980E1F4AA2F7D1BF7B6A4362D27D /* GHScenarioOutline.h in Headers */,
+				44B05FDE20B37FB17F21FC3CC48AFD38 /* GHStep.h in Headers */,
+				8164E479046774C308DE3ABD93566A81 /* GHStepArgument.h in Headers */,
+				BA2977577BC3A5896F899AF75B335815 /* GHTableCell.h in Headers */,
+				03AD578497530F2F69029A341BCCC9D3 /* GHTableRow.h in Headers */,
+				E9BE7B731A8FA506064981B593A17FFC /* GHTag.h in Headers */,
+				C76D1368BB3699E9AE1763D8C5898275 /* GHToken.h in Headers */,
+				12FB87FB787C2D8DE10232C385F3796F /* GHTokenMatcher.h in Headers */,
+				23D0DB0B9383EED410D836D730D91B74 /* GHTokenScanner.h in Headers */,
+				926C8EE27DD06EC591B1444EAD20C981 /* NSArray+Hashes.h in Headers */,
+				1F4D961196E0EC602767F8FA9313DB72 /* NSObject+Dictionary.h in Headers */,
+				45363964F81C9BF3E5817574D9768CEE /* NSString+Formatter.h in Headers */,
+				DE41F2943CAB4908BDAE37E2AEE724CE /* NSString+Trim.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		749CED57FA64A86011A819AB6C8FAFF3 /* Headers */ = {
+		801FA48E5EB7556B9184CBC10DAA6857 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				570AE58E20C14F473845AE0EF03EA6E2 /* Pods-AppleCard-AppleCardUITests-umbrella.h in Headers */,
+				0DBABAE881B571F5472B69A903110BF9 /* Pods-AppleCard-AppleCardUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7CE3A91FCF1B0A5F780D381E9EBCAED /* Headers */ = {
+		9A9768CA157B63E12647E3DDFBD6E240 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A62BF2104FC1E478F8766D0326D3BC4 /* Pods-AppleCardTests-umbrella.h in Headers */,
+				D3D0871F0FC7C6C978AD8776F4334698 /* Pods-AppleCardTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA61B7D1D38CCFADBDFAA39843E6B892 /* Headers */ = {
+		D7EF4B64CD0D8B245443093CF9044D49 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				530C216317E68CC41640B7D379F58673 /* Pods-AppleCard-AppleCardAcceptanceTests-umbrella.h in Headers */,
+				609C94871FA4CAC93D09255ED6626A19 /* Pods-AppleCard-AppleCardAcceptanceTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -752,113 +752,113 @@
 /* Begin PBXNativeTarget section */
 		0CEBF076299E5F98BF7D71C7DFF6C7D7 /* Pods-AppleCard-AppleCardAcceptanceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB2893F80B19C4FF93D92655966C0100 /* Build configuration list for PBXNativeTarget "Pods-AppleCard-AppleCardAcceptanceTests" */;
+			buildConfigurationList = 9A4F6C987E044ACC7B73F2C6BC953213 /* Build configuration list for PBXNativeTarget "Pods-AppleCard-AppleCardAcceptanceTests" */;
 			buildPhases = (
-				DA61B7D1D38CCFADBDFAA39843E6B892 /* Headers */,
-				F51FD5C7657B32D5F3218FF52BE3F200 /* Sources */,
-				E7E1C11ED3D4CC49F3AD7D1287073390 /* Frameworks */,
-				A866EA1B97BFB887C5FEDAA541E28F75 /* Resources */,
+				D7EF4B64CD0D8B245443093CF9044D49 /* Headers */,
+				C72D2B819E40B17A9A759E276F7A111B /* Sources */,
+				78B27B6920851AFD5787B5AC3DA69D9C /* Frameworks */,
+				03BE5027F5284E3AA42EA160CB703735 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B646083B68637A3D4DAFA45E4BB2B1A4 /* PBXTargetDependency */,
+				299E4F9D1131EBA497D8F2F58F11BF8F /* PBXTargetDependency */,
 			);
 			name = "Pods-AppleCard-AppleCardAcceptanceTests";
-			productName = Pods_AppleCard_AppleCardAcceptanceTests;
-			productReference = A576B2D300F9D119B20207C2C1F2A5F2 /* Pods-AppleCard-AppleCardAcceptanceTests */;
+			productName = "Pods-AppleCard-AppleCardAcceptanceTests";
+			productReference = A576B2D300F9D119B20207C2C1F2A5F2 /* Pods_AppleCard_AppleCardAcceptanceTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		335F5967911C31A0CA65408F5A0432F9 /* Pods-AppleCard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55CC3A954D5A003EC7FB159E0F9A4BD9 /* Build configuration list for PBXNativeTarget "Pods-AppleCard" */;
+			buildConfigurationList = 45A20BB2BBE5ECB699177411A0083B8A /* Build configuration list for PBXNativeTarget "Pods-AppleCard" */;
 			buildPhases = (
-				6C2DA6DFD81A791F18DC7E7D732205B3 /* Headers */,
-				CACF565020BEB05F554A891596F0DEA0 /* Sources */,
-				89E6EA7BFFEDFB260CA4A783A015CF81 /* Frameworks */,
-				67C8AEECD1DEF07AF67B7333B2D852BA /* Resources */,
+				0117023EDBDD7D01028F43CFAC769B5D /* Headers */,
+				DDB7E789C463893519C8C3D5233E4413 /* Sources */,
+				4530CB7A680780BFD2D2A972377264AC /* Frameworks */,
+				7A2EC57B0F59CD7BDC5CA97596BD4E0A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Pods-AppleCard";
-			productName = Pods_AppleCard;
-			productReference = 0090BA58432DE6A6B2A8DDE1C9ACE698 /* Pods-AppleCard */;
+			productName = "Pods-AppleCard";
+			productReference = 0090BA58432DE6A6B2A8DDE1C9ACE698 /* Pods_AppleCard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3AED9BAF6482E43D498EFCB394E61427 /* Pods-AppleCardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71C76AE99A5B913E9E91EE9E47C58706 /* Build configuration list for PBXNativeTarget "Pods-AppleCardTests" */;
+			buildConfigurationList = 43D2150487EC9C67E3B7792AADC327B3 /* Build configuration list for PBXNativeTarget "Pods-AppleCardTests" */;
 			buildPhases = (
-				A7CE3A91FCF1B0A5F780D381E9EBCAED /* Headers */,
-				7855CC9C317C5BEEF84F462F5525963F /* Sources */,
-				0C7385A6F1B60F06F73F1A75B838624B /* Frameworks */,
-				1C9AFB6F534D82E6C7A8FCC05EAC08A1 /* Resources */,
+				9A9768CA157B63E12647E3DDFBD6E240 /* Headers */,
+				D4D44F298BABF3D7DB92144A6F08F795 /* Sources */,
+				B34F5BDE0D226EEB08D35A91D92C5621 /* Frameworks */,
+				693836B3A88E2CF1D89CBCA20DD0D876 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1828E0A047582CF9291EBD50DBE8EFAE /* PBXTargetDependency */,
+				4860D3DB4637DBFAAB1C15E4C2129A61 /* PBXTargetDependency */,
 			);
 			name = "Pods-AppleCardTests";
-			productName = Pods_AppleCardTests;
-			productReference = AC5F82E3FCB0E5C704EF5CB72E2DABA0 /* Pods-AppleCardTests */;
+			productName = "Pods-AppleCardTests";
+			productReference = AC5F82E3FCB0E5C704EF5CB72E2DABA0 /* Pods_AppleCardTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6B9476F01BF5369F5A1F27E14B49901D /* Cucumberish-GherkinLanguages */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50A04CDA804A3AB8CB9A0065D7E3D282 /* Build configuration list for PBXNativeTarget "Cucumberish-GherkinLanguages" */;
+			buildConfigurationList = 8F4DEABABF4E05FA6F03B42167F45E46 /* Build configuration list for PBXNativeTarget "Cucumberish-GherkinLanguages" */;
 			buildPhases = (
-				4066A9018969DB9DA1E9005FB589EE4A /* Sources */,
-				27C395FBC817D2034BCA2F208C1F4AA2 /* Frameworks */,
-				413D3972EB01ADD4BF3C840DF1F01254 /* Resources */,
+				93D9FCF8B15A3DE7E32E6AEC30F72095 /* Sources */,
+				AFC476D9E5F9E245488E22F472111748 /* Frameworks */,
+				4ECDC9BB2F52D4EF3FB838A3541A3DC1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Cucumberish-GherkinLanguages";
-			productName = GherkinLanguages;
-			productReference = F5F0E2648A0225A680D9DA04D583F1A4 /* Cucumberish-GherkinLanguages */;
+			productName = "Cucumberish-GherkinLanguages";
+			productReference = F5F0E2648A0225A680D9DA04D583F1A4 /* GherkinLanguages.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		A0EB471CD95041D5AB8821E12B5803B0 /* Pods-AppleCard-AppleCardUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CA17E936BD2A6F2E3AC47A5E5FE39FC /* Build configuration list for PBXNativeTarget "Pods-AppleCard-AppleCardUITests" */;
+			buildConfigurationList = 627040CB0F18BD07631DA619A314C6DA /* Build configuration list for PBXNativeTarget "Pods-AppleCard-AppleCardUITests" */;
 			buildPhases = (
-				749CED57FA64A86011A819AB6C8FAFF3 /* Headers */,
-				0983D7491E0A5D1F32C7B196EF65C3CB /* Sources */,
-				D541641D361628310F60898FEEF74C8F /* Frameworks */,
-				C9E9CEF9CDCE6B843205A1164566AE44 /* Resources */,
+				801FA48E5EB7556B9184CBC10DAA6857 /* Headers */,
+				856CD985E52632630FA756E57474D9BD /* Sources */,
+				3E16786EF7D762961D26C10D98AE1396 /* Frameworks */,
+				434CC4119D7D43364CEDE635D7905261 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EBCD10D9FE9142B5F9B0AA21A336ACEC /* PBXTargetDependency */,
+				FEF7377486FEAC540D02488C0220896F /* PBXTargetDependency */,
 			);
 			name = "Pods-AppleCard-AppleCardUITests";
-			productName = Pods_AppleCard_AppleCardUITests;
-			productReference = F9671AFC89682F91CB1335925F7AB512 /* Pods-AppleCard-AppleCardUITests */;
+			productName = "Pods-AppleCard-AppleCardUITests";
+			productReference = F9671AFC89682F91CB1335925F7AB512 /* Pods_AppleCard_AppleCardUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E9023FEC10B3ABBA3DA6D590AE39248B /* Cucumberish */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 306527F66BCCC03A3B93037C3390C7E3 /* Build configuration list for PBXNativeTarget "Cucumberish" */;
+			buildConfigurationList = 99495F503BDBB3638E16A4391FEFD540 /* Build configuration list for PBXNativeTarget "Cucumberish" */;
 			buildPhases = (
-				65E8CC1678315E5E4B02E6776F486544 /* Headers */,
-				0E92121FC44191C216D1EFB2C9240040 /* Sources */,
-				8B771E86D6DCD44B24A9F4AC9229DBA8 /* Frameworks */,
-				FBCD4003BE6E909574C5F3DD6EF40A74 /* Resources */,
+				1910B3A74DCA9748127649BF59D833DD /* Headers */,
+				AB7A3E5ABAF0A9C9E388C319D2D0C7A2 /* Sources */,
+				5374F8466A49303B4271A24C19546C61 /* Frameworks */,
+				011B30EE9C0CE6248AA77CE7DFD59BE1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				20AD24B0972A3ED1410D5087F7B0699E /* PBXTargetDependency */,
+				68A5C692EC211D78572D321804244031 /* PBXTargetDependency */,
 			);
 			name = Cucumberish;
 			productName = Cucumberish;
-			productReference = C9510BC643350C8A72076078C9C0DAAD /* Cucumberish */;
+			productReference = C9510BC643350C8A72076078C9C0DAAD /* Cucumberish.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -867,19 +867,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				Base,
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4491145F5617FFDF5F5787D46CA42EA2 /* Products */;
+			productRefGroup = B3D9B77A481C5C422CAB2E52D9864EAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -894,222 +894,186 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1C9AFB6F534D82E6C7A8FCC05EAC08A1 /* Resources */ = {
+		011B30EE9C0CE6248AA77CE7DFD59BE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EACA89123960BF7D691E4680B107275 /* GherkinLanguages.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BE5027F5284E3AA42EA160CB703735 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		413D3972EB01ADD4BF3C840DF1F01254 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				72899AE4D20E1B6E6D797D4443636102 /* gherkin-languages.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67C8AEECD1DEF07AF67B7333B2D852BA /* Resources */ = {
+		434CC4119D7D43364CEDE635D7905261 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A866EA1B97BFB887C5FEDAA541E28F75 /* Resources */ = {
+		4ECDC9BB2F52D4EF3FB838A3541A3DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C18569336AE9B64BEF5EFD4C2BE6AC /* gherkin-languages.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		693836B3A88E2CF1D89CBCA20DD0D876 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9E9CEF9CDCE6B843205A1164566AE44 /* Resources */ = {
+		7A2EC57B0F59CD7BDC5CA97596BD4E0A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FBCD4003BE6E909574C5F3DD6EF40A74 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8613B4CC5D937083E1F1653F1982FFBB /* Cucumberish-GherkinLanguages in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0983D7491E0A5D1F32C7B196EF65C3CB /* Sources */ = {
+		856CD985E52632630FA756E57474D9BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42DBA8B82CDDCAAC6C65B6CF3734F1D7 /* Pods-AppleCard-AppleCardUITests-dummy.m in Sources */,
+				7666D9DC70826727D403CE3D8A590CA8 /* Pods-AppleCard-AppleCardUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0E92121FC44191C216D1EFB2C9240040 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DAF6A906B0656F00F1B06C8BB571F79 /* CCIArgument.m in Sources */,
-				E3068DF52B96B037B1DBDADB1CB12E18 /* CCIAroundHock.m in Sources */,
-				F61301B5469F6A53A5C7DCD65D5B1142 /* CCIBackground.m in Sources */,
-				70D7E1DCEF7E3A26A5D42CE51F21989D /* CCIExample.m in Sources */,
-				EAC7CEEB6DF92DDD8476575B51EA7D37 /* CCIFeature.m in Sources */,
-				E62F4E1D1BCB93AFADB760600B9AE6B1 /* CCIFeaturesManager.m in Sources */,
-				33EDF24658EF2A0BD561D8CAC5CA7FE2 /* CCIHock.m in Sources */,
-				FC4D9EF9156725F6BF0F7C3FE16046D9 /* CCIJSONDumper.m in Sources */,
-				63C6D2E367E7C7EBE6C13E14A5072777 /* CCILocation.m in Sources */,
-				21030810185655D36DE5E466FFC80FE4 /* CCILoggingManager.m in Sources */,
-				3B6611F44BC45A7D2BF4A3B4C53957F3 /* CCIScenarioDefinition.m in Sources */,
-				2365672CC1C2B01EBB4919769D3768DB /* CCIStep.m in Sources */,
-				3B33476BCA37FF6C6F3BFC2FFD2C3F59 /* CCIStepDefinition.m in Sources */,
-				30EB55B537AFAD1CF1DE87BC37CFD1E7 /* CCIStepsManager.m in Sources */,
-				A351B5858EF496883AEB1EDD5085D909 /* Cucumberish.m in Sources */,
-				A4E83D328B4CE62AD8E20C261E0FC9F6 /* Cucumberish-dummy.m in Sources */,
-				441E573B506F0A9F78AA2DC7FB30F0C3 /* GHAstBuilder.m in Sources */,
-				073DEB9C22A2DA1A9E15FA1F357D57B8 /* GHAstNode.m in Sources */,
-				4D5C2CED2F23B56D395DE1CD819063D1 /* GHBackground.m in Sources */,
-				14E210C4980084D74D07FA4870BB3394 /* GHComment.m in Sources */,
-				9BCD22B5779AE0CE27898D994791F4A8 /* GHDataTable.m in Sources */,
-				893F7C075581BAC6F0F57C8347449A03 /* GHDocString.m in Sources */,
-				14CE26C65D44C45E3B29DC215C33CAAA /* GHExamples.m in Sources */,
-				A8C333E69FDD405B71640CE021B69487 /* GHFeature.m in Sources */,
-				CD8BE3E6D65357D3E9985C1F89530B8D /* GHGherkinDialect.m in Sources */,
-				3A2DCE531F74D85E02376207BD30C87D /* GHGherkinDialectProvider.m in Sources */,
-				608E23A60ACBD7881E43BBC6303BB7FE /* GHGherkinLanguageConstants.m in Sources */,
-				D2D08199BCDDE7492DC093B2C2CB0354 /* GHGherkinLanguageSetting.m in Sources */,
-				6D069C77BDAF17DD88C34EF13317815F /* GHGherkinLine.m in Sources */,
-				A1CD8B433B83BF1928DF7792285927FA /* GHGherkinLineSpan.m in Sources */,
-				B7C1DC503C202243F3F2484B3853488E /* GHLocation.m in Sources */,
-				1F7C10D754268C14F1BABE762F43CAC2 /* GHNode.m in Sources */,
-				C1B85A9CD1BA034142D28A4C9F19A3AD /* GHParser.m in Sources */,
-				B8E309048D57C0C2CED0C67B878D5CB0 /* GHParser+Extensions.m in Sources */,
-				A1FE48429AE4C83C7CAF20513FA07E06 /* GHParserException.m in Sources */,
-				046FE514173DAB5E7D49F823B2737751 /* GHScenario.m in Sources */,
-				BC47A485ED91DA9B2F565126D1E32B56 /* GHScenarioDefinition.m in Sources */,
-				68C0BCF63A97D1B55F44EC83DC66511B /* GHScenarioOutline.m in Sources */,
-				CACC240A5D9A8D69FDBDFBF0833EF132 /* GHStep.m in Sources */,
-				21E44C799C90ED5C2B1C1B5FCB6284B4 /* GHStepArgument.m in Sources */,
-				C14F4970D3AA96C2268C3036CD18941E /* GHTableCell.m in Sources */,
-				1587859FEA1B5946FF07461D51D93EFD /* GHTableRow.m in Sources */,
-				1418761D309B51DDD57CE197EE4A698C /* GHTag.m in Sources */,
-				CE0A8E039A2A747E37E5532CC66D1211 /* GHToken.m in Sources */,
-				6209901FB6AD1ADF41205818B54FF9E0 /* GHTokenMatcher.m in Sources */,
-				445EB4DB4B28997ADD2CCBEBED393147 /* GHTokenScanner.m in Sources */,
-				7E3066C9F123557A07AB9B51F3DA26AA /* NSArray+Hashes.m in Sources */,
-				D171099363C6AE255027A5E560E131FB /* NSObject+Dictionary.m in Sources */,
-				32A626117F85027615A378658D3C9988 /* NSString+Formatter.m in Sources */,
-				C44F6BD4DA3EABCCF0F0C9CE695729F8 /* NSString+Trim.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4066A9018969DB9DA1E9005FB589EE4A /* Sources */ = {
+		93D9FCF8B15A3DE7E32E6AEC30F72095 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7855CC9C317C5BEEF84F462F5525963F /* Sources */ = {
+		AB7A3E5ABAF0A9C9E388C319D2D0C7A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EEC8B15FB9CF5C882719D533C88126D /* Pods-AppleCardTests-dummy.m in Sources */,
+				3B8E4C4F549888DD095940613862BB1A /* CCIArgument.m in Sources */,
+				02DCA89F2F40C5550FAA931CC0ED230A /* CCIAroundHock.m in Sources */,
+				DD403CC400071C872DAB8CAC81AE3FAD /* CCIBackground.m in Sources */,
+				72A2DA3F743376EA5D23625BA2B7825E /* CCIExample.m in Sources */,
+				D5107FF99C759D9337043EDE62969C63 /* CCIFeature.m in Sources */,
+				217C7203CA1C8D2FD36E0B944AC7DD73 /* CCIFeaturesManager.m in Sources */,
+				CFF6020D15883426CB24033C697CCB7E /* CCIHock.m in Sources */,
+				A34E2C046A1E496875F85E0BA5ABF56D /* CCIJSONDumper.m in Sources */,
+				43548AA5CED87C4881A40D87E65D1607 /* CCILocation.m in Sources */,
+				6C9FE535241AF79734B77517BE978F1E /* CCILoggingManager.m in Sources */,
+				41118BE5A6A1D4BEDF176702B3D9161B /* CCIScenarioDefinition.m in Sources */,
+				3AD3D0A7D05BA7FE4F4A943D69567336 /* CCIStep.m in Sources */,
+				C44E1A9162F4E04BAB3AFE86C8171747 /* CCIStepDefinition.m in Sources */,
+				11404AD89974ED77287D849190EA5780 /* CCIStepsManager.m in Sources */,
+				BA30E01A32666CDEB3ADB741BE382B8E /* Cucumberish-dummy.m in Sources */,
+				F42FCF7A329DAE5DA8A374D8957041D8 /* Cucumberish.m in Sources */,
+				AFE8056BC5DC27A28CFAD3F73276E7DA /* GHAstBuilder.m in Sources */,
+				FABC5386CB25C8F45917377AC88AED72 /* GHAstNode.m in Sources */,
+				52D699E011B04A70E171660A2A96B7D1 /* GHBackground.m in Sources */,
+				353F4B220B3BC1AF0DB2AB57334BC0D3 /* GHComment.m in Sources */,
+				15F01E61AB18F26725E5330A5900A490 /* GHDataTable.m in Sources */,
+				B5E52D645ECB7D98D603D3252875EF6B /* GHDocString.m in Sources */,
+				0BC7BBBE304E7B44C28DD25926656A7B /* GHExamples.m in Sources */,
+				12AFFA353C8F368BBFBCA5AAC3E52958 /* GHFeature.m in Sources */,
+				94FADA471DEFE688FD906BE85A84B77B /* GHGherkinDialect.m in Sources */,
+				927858F1BC0FB54D8AFFA2FD426EF2A5 /* GHGherkinDialectProvider.m in Sources */,
+				502AB5DADFD803A8E180C16B6CD29E8B /* GHGherkinLanguageConstants.m in Sources */,
+				EF7E68A4C13139F16F00EF485ADE871C /* GHGherkinLanguageSetting.m in Sources */,
+				CFBB3A1B87E730EB08929FD794AC3BFF /* GHGherkinLine.m in Sources */,
+				5687D7AC498C3BFE793AE572D86A2876 /* GHGherkinLineSpan.m in Sources */,
+				A1C4D8D7CAEB464EFC7C6C03E39452C0 /* GHLocation.m in Sources */,
+				72F214D2B10582EB4D573F34F2C65E66 /* GHNode.m in Sources */,
+				9F2E38A1B2181C96D71675469197EF64 /* GHParser+Extensions.m in Sources */,
+				80DD897C43777495F307291943F5D8F7 /* GHParser.m in Sources */,
+				72D1283599F85F8CC6D349D1912F3763 /* GHParserException.m in Sources */,
+				949F57C12B892AF9FE8AEB8317895821 /* GHScenario.m in Sources */,
+				78DE74E3713FC73E81788F9640A5B2CC /* GHScenarioDefinition.m in Sources */,
+				406D452B95AD87AB5E42C2CA702BC89B /* GHScenarioOutline.m in Sources */,
+				CD2602F890748BC5CCC3B112D57E9391 /* GHStep.m in Sources */,
+				355F4C1E87157E9FBCF51D1276A6C817 /* GHStepArgument.m in Sources */,
+				A42418CF2B92882FC6122ABD4A7057A2 /* GHTableCell.m in Sources */,
+				03C933DA6CAF48E4BE7477E3FDEB3E46 /* GHTableRow.m in Sources */,
+				6F385D0ADF1EC1E61D0FDBF8A590D885 /* GHTag.m in Sources */,
+				869CD4243B0775334FCA2434075FB58E /* GHToken.m in Sources */,
+				AC781619E16F086B1EB8D7E21B0425A7 /* GHTokenMatcher.m in Sources */,
+				A37F0DDBEDF075EB6A1FEF7457A3FE5A /* GHTokenScanner.m in Sources */,
+				C7663108A065D2B435CD3B68F9CC64FC /* NSArray+Hashes.m in Sources */,
+				74E807B2B8BD9B36485D43D6C3588D49 /* NSObject+Dictionary.m in Sources */,
+				F46092019E16F8BA2C03B292CD99E01C /* NSString+Formatter.m in Sources */,
+				AA4276268F57DC4E0AA41606D0A871BD /* NSString+Trim.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CACF565020BEB05F554A891596F0DEA0 /* Sources */ = {
+		C72D2B819E40B17A9A759E276F7A111B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				986B4958CA5F5A9EEF905477C4E8DBA8 /* Pods-AppleCard-dummy.m in Sources */,
+				0976A2C8A88D0922453A9EF6E25B6E9F /* Pods-AppleCard-AppleCardAcceptanceTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F51FD5C7657B32D5F3218FF52BE3F200 /* Sources */ = {
+		D4D44F298BABF3D7DB92144A6F08F795 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5B2CE6E09C875A90911C59E0F40EA59 /* Pods-AppleCard-AppleCardAcceptanceTests-dummy.m in Sources */,
+				8F161B4A667378128950B332B8EEE4CB /* Pods-AppleCardTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB7E789C463893519C8C3D5233E4413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292AEAFA0A0B125A832DF9E63AA02476 /* Pods-AppleCard-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1828E0A047582CF9291EBD50DBE8EFAE /* PBXTargetDependency */ = {
+		299E4F9D1131EBA497D8F2F58F11BF8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cucumberish;
+			target = E9023FEC10B3ABBA3DA6D590AE39248B /* Cucumberish */;
+			targetProxy = E0B35AE11809D3668072119971798397 /* PBXContainerItemProxy */;
+		};
+		4860D3DB4637DBFAAB1C15E4C2129A61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AppleCard";
 			target = 335F5967911C31A0CA65408F5A0432F9 /* Pods-AppleCard */;
-			targetProxy = 858840142F6CC070BD4F43E515D15D70 /* PBXContainerItemProxy */;
+			targetProxy = 17BE4AD2C921561B4BD5364B5393701F /* PBXContainerItemProxy */;
 		};
-		20AD24B0972A3ED1410D5087F7B0699E /* PBXTargetDependency */ = {
+		68A5C692EC211D78572D321804244031 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Cucumberish-GherkinLanguages";
 			target = 6B9476F01BF5369F5A1F27E14B49901D /* Cucumberish-GherkinLanguages */;
-			targetProxy = 87EDC7D991A0E7F9583133C428F2223A /* PBXContainerItemProxy */;
+			targetProxy = 4A1B4CBD887A36D58A1DD2DE298874DD /* PBXContainerItemProxy */;
 		};
-		B646083B68637A3D4DAFA45E4BB2B1A4 /* PBXTargetDependency */ = {
+		FEF7377486FEAC540D02488C0220896F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Cucumberish;
 			target = E9023FEC10B3ABBA3DA6D590AE39248B /* Cucumberish */;
-			targetProxy = E4FE2510EA44793A5EE32E33FE74DA83 /* PBXContainerItemProxy */;
-		};
-		EBCD10D9FE9142B5F9B0AA21A336ACEC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Cucumberish;
-			target = E9023FEC10B3ABBA3DA6D590AE39248B /* Cucumberish */;
-			targetProxy = 2B9FD9AD34CBC309CD62C30CFD667824 /* PBXContainerItemProxy */;
+			targetProxy = 857302214DFDA4FC6C0CD9F549324078 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D2AA8B9C2AE2445DA702DB7F78FE882 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0A8C4BD98B1C42F7B612B89DD9BF614 /* Pods-AppleCardTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AppleCardTests/Pods-AppleCardTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AppleCardTests/Pods-AppleCardTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0D748FD427628C6BC85FDF4D559C61FE /* Debug */ = {
+		3E85FE94D3268781235752C353F5B5FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9C9C142EB569F4FBC46FD985A5CD449 /* Pods-AppleCard-AppleCardAcceptanceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1141,49 +1105,13 @@
 			};
 			name = Debug;
 		};
-		2FD5DCC4C4C3888A2F519F6D4B279030 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA1A2CB494826ACDB5017FA3E52131BC /* Pods-AppleCard-AppleCardUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AppleCard-AppleCardUITests/Pods-AppleCard-AppleCardUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AppleCard-AppleCardUITests/Pods-AppleCard-AppleCardUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5CE928994AAEBB35C89F5D7E0139583C /* Release */ = {
+		5151EBCF5903AFE95A9F43D35FE41E93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1751685C02F7872A32BE0D616D12F87F /* Pods-AppleCard-AppleCardUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1216,62 +1144,48 @@
 			};
 			name = Release;
 		};
-		6210D467A486525C3421DB230A2EFF94 /* Debug */ = {
+		633DB584214C9FAF8779434C197F7F24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C1211488DBC0C59E21217129AEFE380 /* Cucumberish.debug.xcconfig */;
+			baseConfigurationReference = EA1A2CB494826ACDB5017FA3E52131BC /* Pods-AppleCard-AppleCardUITests.debug.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Cucumberish";
-				IBSC_MODULE = Cucumberish;
-				INFOPLIST_FILE = "Target Support Files/Cucumberish/ResourceBundle-GherkinLanguages-Cucumberish-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = GherkinLanguages;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppleCard-AppleCardUITests/Pods-AppleCard-AppleCardUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppleCard-AppleCardUITests/Pods-AppleCard-AppleCardUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		790FC75532292FEB03A37A7B9DD897CC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 642EB2F784FE9452103B50102BF32103 /* Cucumberish.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Cucumberish/Cucumberish-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Cucumberish/Cucumberish-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Cucumberish/Cucumberish.modulemap";
-				PRODUCT_MODULE_NAME = Cucumberish;
-				PRODUCT_NAME = Cucumberish;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		963BD7925C123C698115AE45CD264E7F /* Release */ = {
+		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1294,161 +1208,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		BF56C972CFC6A9D929CD5ABC022B8C95 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 642EB2F784FE9452103B50102BF32103 /* Cucumberish.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Cucumberish";
-				IBSC_MODULE = Cucumberish;
-				INFOPLIST_FILE = "Target Support Files/Cucumberish/ResourceBundle-GherkinLanguages-Cucumberish-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = GherkinLanguages;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		D09638BFD2EBAEF3003049C42B302336 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F6AAE89B797C89D613CE3BFC96E33BA /* Pods-AppleCardTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AppleCardTests/Pods-AppleCardTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AppleCardTests/Pods-AppleCardTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E288BBDD4A4F940EB27C722838BD2432 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E1DFB277FDA93B0A6EC4A29A599D308 /* Pods-AppleCard-AppleCardAcceptanceTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AppleCard-AppleCardAcceptanceTests/Pods-AppleCard-AppleCardAcceptanceTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AppleCard-AppleCardAcceptanceTests/Pods-AppleCard-AppleCardAcceptanceTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E8256E1B894D64F9B6D6E0F27C2CABC5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1487,12 +1246,13 @@
 			};
 			name = Debug;
 		};
-		E8BF40095FADDFD8ED8C9E6393EF6423 /* Debug */ = {
+		7840398071F24F3A5123A2C94A0A65D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8672392D87105EC8375F97F588880385 /* Pods-AppleCard.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1524,12 +1284,13 @@
 			};
 			name = Debug;
 		};
-		EFDDD7EA51FA2BD2133BE5E6CE1786CA /* Release */ = {
+		7BFBF8E1E30D4C9492AAD557E5E06B1D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C635B9DD6C7796DA964EDC08AE26143D /* Pods-AppleCard.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1562,10 +1323,163 @@
 			};
 			name = Release;
 		};
-		F350F61CBC830AB5385C297768C93B45 /* Debug */ = {
+		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8330AD9BC9E26F743C2B65F35169B54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642EB2F784FE9452103B50102BF32103 /* Cucumberish.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cucumberish/Cucumberish-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cucumberish/Cucumberish-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cucumberish/Cucumberish.modulemap";
+				PRODUCT_MODULE_NAME = Cucumberish;
+				PRODUCT_NAME = Cucumberish;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C8397F3B1E72049C5DD9E0CA77DD078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1DFB277FDA93B0A6EC4A29A599D308 /* Pods-AppleCard-AppleCardAcceptanceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppleCard-AppleCardAcceptanceTests/Pods-AppleCard-AppleCardAcceptanceTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppleCard-AppleCardAcceptanceTests/Pods-AppleCard-AppleCardAcceptanceTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9CA21D8D341C21679CE53C6DF33575DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C1211488DBC0C59E21217129AEFE380 /* Cucumberish.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Cucumberish";
+				IBSC_MODULE = Cucumberish;
+				INFOPLIST_FILE = "Target Support Files/Cucumberish/ResourceBundle-GherkinLanguages-Cucumberish-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GherkinLanguages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9D3C9B71B11C0C8099264F8CC51A7840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C1211488DBC0C59E21217129AEFE380 /* Cucumberish.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1596,14 +1510,117 @@
 			};
 			name = Debug;
 		};
+		B4A7DD4D746AAED2775F20E25259BA1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F6AAE89B797C89D613CE3BFC96E33BA /* Pods-AppleCardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppleCardTests/Pods-AppleCardTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppleCardTests/Pods-AppleCardTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA4B8749C426E349118862F50C715E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642EB2F784FE9452103B50102BF32103 /* Cucumberish.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Cucumberish";
+				IBSC_MODULE = Cucumberish;
+				INFOPLIST_FILE = "Target Support Files/Cucumberish/ResourceBundle-GherkinLanguages-Cucumberish-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GherkinLanguages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FD5D9A3615016F4BE7F1137116857112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A8C4BD98B1C42F7B612B89DD9BF614 /* Pods-AppleCardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppleCardTests/Pods-AppleCardTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppleCardTests/Pods-AppleCardTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		306527F66BCCC03A3B93037C3390C7E3 /* Build configuration list for PBXNativeTarget "Cucumberish" */ = {
+		43D2150487EC9C67E3B7792AADC327B3 /* Build configuration list for PBXNativeTarget "Pods-AppleCardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F350F61CBC830AB5385C297768C93B45 /* Debug */,
-				790FC75532292FEB03A37A7B9DD897CC /* Release */,
+				FD5D9A3615016F4BE7F1137116857112 /* Debug */,
+				B4A7DD4D746AAED2775F20E25259BA1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A20BB2BBE5ECB699177411A0083B8A /* Build configuration list for PBXNativeTarget "Pods-AppleCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7840398071F24F3A5123A2C94A0A65D0 /* Debug */,
+				7BFBF8E1E30D4C9492AAD557E5E06B1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1611,53 +1628,44 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8256E1B894D64F9B6D6E0F27C2CABC5 /* Debug */,
-				963BD7925C123C698115AE45CD264E7F /* Release */,
+				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
+				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CA17E936BD2A6F2E3AC47A5E5FE39FC /* Build configuration list for PBXNativeTarget "Pods-AppleCard-AppleCardUITests" */ = {
+		627040CB0F18BD07631DA619A314C6DA /* Build configuration list for PBXNativeTarget "Pods-AppleCard-AppleCardUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FD5DCC4C4C3888A2F519F6D4B279030 /* Debug */,
-				5CE928994AAEBB35C89F5D7E0139583C /* Release */,
+				633DB584214C9FAF8779434C197F7F24 /* Debug */,
+				5151EBCF5903AFE95A9F43D35FE41E93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50A04CDA804A3AB8CB9A0065D7E3D282 /* Build configuration list for PBXNativeTarget "Cucumberish-GherkinLanguages" */ = {
+		8F4DEABABF4E05FA6F03B42167F45E46 /* Build configuration list for PBXNativeTarget "Cucumberish-GherkinLanguages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6210D467A486525C3421DB230A2EFF94 /* Debug */,
-				BF56C972CFC6A9D929CD5ABC022B8C95 /* Release */,
+				9CA21D8D341C21679CE53C6DF33575DA /* Debug */,
+				FA4B8749C426E349118862F50C715E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55CC3A954D5A003EC7FB159E0F9A4BD9 /* Build configuration list for PBXNativeTarget "Pods-AppleCard" */ = {
+		99495F503BDBB3638E16A4391FEFD540 /* Build configuration list for PBXNativeTarget "Cucumberish" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8BF40095FADDFD8ED8C9E6393EF6423 /* Debug */,
-				EFDDD7EA51FA2BD2133BE5E6CE1786CA /* Release */,
+				9D3C9B71B11C0C8099264F8CC51A7840 /* Debug */,
+				8330AD9BC9E26F743C2B65F35169B54C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71C76AE99A5B913E9E91EE9E47C58706 /* Build configuration list for PBXNativeTarget "Pods-AppleCardTests" */ = {
+		9A4F6C987E044ACC7B73F2C6BC953213 /* Build configuration list for PBXNativeTarget "Pods-AppleCard-AppleCardAcceptanceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D2AA8B9C2AE2445DA702DB7F78FE882 /* Debug */,
-				D09638BFD2EBAEF3003049C42B302336 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FB2893F80B19C4FF93D92655966C0100 /* Build configuration list for PBXNativeTarget "Pods-AppleCard-AppleCardAcceptanceTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0D748FD427628C6BC85FDF4D559C61FE /* Debug */,
-				E288BBDD4A4F940EB27C722838BD2432 /* Release */,
+				3E85FE94D3268781235752C353F5B5FA /* Debug */,
+				8C8397F3B1E72049C5DD9E0CA77DD078 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
