@@ -13,7 +13,7 @@ import XCTest
 class UnderAgeApplyingCardSteps {
     func run() {
         
-        Given("the floiowing user information") { args, userInfo in
+        Given("the following user information") { args, userInfo in
 
             XCUIApplication().launch()
 
