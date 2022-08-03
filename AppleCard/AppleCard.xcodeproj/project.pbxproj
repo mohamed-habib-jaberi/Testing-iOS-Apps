@@ -18,6 +18,7 @@
 		616FA9A9289B1742006FFD4F /* CreditScoreServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616FA9A8289B1742006FFD4F /* CreditScoreServiceProtocol.swift */; };
 		616FA9AC289B18FF006FFD4F /* MockCreditScoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616FA9AB289B18FF006FFD4F /* MockCreditScoreService.swift */; };
 		616FA9AE289B1D36006FFD4F /* CreditCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616FA9AD289B1D36006FFD4F /* CreditCardTests.swift */; };
+		616FA9B0289B204B006FFD4F /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616FA9AF289B204B006FFD4F /* CreditCard.swift */; };
 		617B62082896F3D100EBA9B1 /* ApplyCreditCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617B62072896F3D100EBA9B1 /* ApplyCreditCardUITests.swift */; };
 		61A7B2D9289570A700C3A163 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7B2D8289570A700C3A163 /* UserTests.swift */; };
 		61C16B5D2894775B005101C7 /* ApplyCreditCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C16B5C2894775B005101C7 /* ApplyCreditCardViewModel.swift */; };
@@ -74,6 +75,7 @@
 		616FA9A8289B1742006FFD4F /* CreditScoreServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScoreServiceProtocol.swift; sourceTree = "<group>"; };
 		616FA9AB289B18FF006FFD4F /* MockCreditScoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCreditScoreService.swift; sourceTree = "<group>"; };
 		616FA9AD289B1D36006FFD4F /* CreditCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardTests.swift; sourceTree = "<group>"; };
+		616FA9AF289B204B006FFD4F /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
 		617B62062896F3D000EBA9B1 /* AppleCardUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleCardUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		617B62072896F3D100EBA9B1 /* ApplyCreditCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyCreditCardUITests.swift; sourceTree = "<group>"; };
 		61A7B2D8289570A700C3A163 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 			children = (
 				61C16B5F289478F6005101C7 /* User.swift */,
 				616FA9A6289B141D006FFD4F /* CreditScore.swift */,
+				616FA9AF289B204B006FFD4F /* CreditCard.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -637,6 +640,7 @@
 				616FA9A7289B141D006FFD4F /* CreditScore.swift in Sources */,
 				616FA9A9289B1742006FFD4F /* CreditScoreServiceProtocol.swift in Sources */,
 				61C16B60289478F6005101C7 /* User.swift in Sources */,
+				616FA9B0289B204B006FFD4F /* CreditCard.swift in Sources */,
 				61C16B6328947CE7005101C7 /* String+Extensions.swift in Sources */,
 				8DB7E3D32457D08900516433 /* ContentView.swift in Sources */,
 				616FA9A5289B11AC006FFD4F /* CreditScoreService.swift in Sources */,

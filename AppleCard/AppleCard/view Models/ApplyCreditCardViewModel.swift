@@ -23,7 +23,7 @@ class ApplyCreditCardViewModel: ObservableObject {
     
     private var user: User {
        
-        return User(name: self.name, ssn: self.ssn, dob: self.dob.toDate()!)
+        return User(name: self.name, ssn: self.ssn, dob: self.dob.toDate())
     }
     
     func apply() {
