@@ -44,7 +44,7 @@ class CreditCardAPRSteps {
                 let aprRate = data[1] as! String
                 
                 // compare the aprRate with messageLabel from the page Object
-                let messageLabelVisible = applyCreditCardPage.messageLable.waitForExistence(timeout: 5.0)
+                let messageLabelVisible = applyCreditCardPage.messageLabel.waitForExistence(timeout: 5.0)
                 
                 if messageLabelVisible{
                     XCTAssertEqual(aprRate, applyCreditCardPage.messageLabel.label)
