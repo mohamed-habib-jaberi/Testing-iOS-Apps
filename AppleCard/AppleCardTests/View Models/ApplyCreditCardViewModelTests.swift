@@ -12,7 +12,7 @@ import XCTest
 class When_qualified_user_apply_for_credit_card: XCTestCase {
     
     func test_should_set_the_correct_apr_rate()  {
-        let service = CreditScoreService()
+        let service = MockCreditScoreService()
         let applyCreditCardVM = ApplyCreditCardViewModel(service: service)
 
         applyCreditCardVM.name = "Mary Doe"
@@ -28,7 +28,8 @@ class When_qualified_user_apply_for_credit_card: XCTestCase {
 class When_credit_card_is_denied_due_to_age: XCTestCase {
 
     func test_should_set_under_age_message_successfully() {
-        let applyCreditCardVM = ApplyCreditCardViewModel()
+      
+        let applyCreditCardVM = ApplyCreditCardViewModel(service: CreditScoreService())
 
         applyCreditCardVM.name = "Mary Doe"
         applyCreditCardVM.ssn = "123-45-56789"

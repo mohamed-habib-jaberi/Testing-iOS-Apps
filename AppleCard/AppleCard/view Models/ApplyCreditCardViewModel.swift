@@ -15,6 +15,12 @@ class ApplyCreditCardViewModel: ObservableObject {
     
    @Published var message: String = ""
     
+    var service: CreditScoreServiceProtocol
+    
+    init(service: CreditScoreServiceProtocol) {
+        self.service = service
+    }
+    
     private var user: User {
        
         return User(name: self.name, ssn: self.ssn, dob: self.dob.toDate()!)

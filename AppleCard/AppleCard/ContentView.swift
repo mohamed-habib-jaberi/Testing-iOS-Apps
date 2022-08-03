@@ -13,7 +13,7 @@ struct ContentView: View {
     @ObservedObject var applyCreditCardVM: ApplyCreditCardViewModel
     
     init(){
-        self.applyCreditCardVM = ApplyCreditCardViewModel()
+        self.applyCreditCardVM = ApplyCreditCardViewModel(service: CreditScoreService())
     }
 
     var body: some View {
