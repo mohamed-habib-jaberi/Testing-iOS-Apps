@@ -17,6 +17,7 @@
 		616FA9A7289B141D006FFD4F /* CreditScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616FA9A6289B141D006FFD4F /* CreditScore.swift */; };
 		616FA9A9289B1742006FFD4F /* CreditScoreServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616FA9A8289B1742006FFD4F /* CreditScoreServiceProtocol.swift */; };
 		616FA9AC289B18FF006FFD4F /* MockCreditScoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616FA9AB289B18FF006FFD4F /* MockCreditScoreService.swift */; };
+		616FA9AE289B1D36006FFD4F /* CreditCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616FA9AD289B1D36006FFD4F /* CreditCardTests.swift */; };
 		617B62082896F3D100EBA9B1 /* ApplyCreditCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617B62072896F3D100EBA9B1 /* ApplyCreditCardUITests.swift */; };
 		61A7B2D9289570A700C3A163 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7B2D8289570A700C3A163 /* UserTests.swift */; };
 		61C16B5D2894775B005101C7 /* ApplyCreditCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C16B5C2894775B005101C7 /* ApplyCreditCardViewModel.swift */; };
@@ -72,6 +73,7 @@
 		616FA9A6289B141D006FFD4F /* CreditScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScore.swift; sourceTree = "<group>"; };
 		616FA9A8289B1742006FFD4F /* CreditScoreServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScoreServiceProtocol.swift; sourceTree = "<group>"; };
 		616FA9AB289B18FF006FFD4F /* MockCreditScoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCreditScoreService.swift; sourceTree = "<group>"; };
+		616FA9AD289B1D36006FFD4F /* CreditCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardTests.swift; sourceTree = "<group>"; };
 		617B62062896F3D000EBA9B1 /* AppleCardUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleCardUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		617B62072896F3D100EBA9B1 /* ApplyCreditCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyCreditCardUITests.swift; sourceTree = "<group>"; };
 		61A7B2D8289570A700C3A163 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				61A7B2D8289570A700C3A163 /* UserTests.swift */,
+				616FA9AD289B1D36006FFD4F /* CreditCardTests.swift */,
 			);
 			name = Models;
 			path = "Öodels";
@@ -665,6 +668,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				616FA9AE289B1D36006FFD4F /* CreditCardTests.swift in Sources */,
 				61A7B2D9289570A700C3A163 /* UserTests.swift in Sources */,
 				88EB92E22894327D00A704FB /* ApplyCreditCardViewModelTests.swift in Sources */,
 				616FA9AC289B18FF006FFD4F /* MockCreditScoreService.swift in Sources */,
