@@ -8,10 +8,15 @@
 
 import XCTest
 @testable import AppleCard
+import Combine
 
 class When_qualified_user_apply_for_credit_card: XCTestCase {
     
+    private var cancellable: AnyCancellable!
+    
     func test_should_set_the_correct_apr_rate()  {
+        
+        let exp = expectation(description: "APR has been loaded...")
         let service = MockCreditScoreService()
         let applyCreditCardVM = ApplyCreditCardViewModel(service: service)
 
@@ -21,7 +26,14 @@ class When_qualified_user_apply_for_credit_card: XCTestCase {
         
         applyCreditCardVM.apply()
         
-        XCTAssertEqual(applyCreditCardVM.message, "0.06%")
+        self.cancellable = applyCreditCardVM.$message.sink { test in
+            if !test.isEmpty {
+                XCTAssertEqual(test, "0.06%")
+                exp.fulfill()
+            }
+        }
+        
+        wait(for: [exp], timeout: 5.0)
     }
 }
 

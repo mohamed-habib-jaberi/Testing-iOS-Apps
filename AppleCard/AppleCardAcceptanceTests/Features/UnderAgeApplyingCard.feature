@@ -1,9 +1,6 @@
 
 feature: Applying for credit card while under 18
 
-
-Features: Applying for credit card while under 18
-
 Scenario: As a user who is less than 18 years old, when I apply for a credit card then it should be denied
 
 Given the following user information

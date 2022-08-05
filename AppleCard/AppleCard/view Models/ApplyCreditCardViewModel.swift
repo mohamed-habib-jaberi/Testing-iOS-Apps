@@ -30,5 +30,14 @@ class ApplyCreditCardViewModel: ObservableObject {
         if !user.isElligible{
             self.message = "Denied: Underage"
         }
+        
+        let creditCard = CreditCard(user: user)
+        creditCard.calculateAPR(service: self.service) {
+            DispatchQueue.main.async {
+                if let apr = creditCard.apr {
+                    self.message = "\(apr)%"
+                }
+            }
+        }
     }
 }
